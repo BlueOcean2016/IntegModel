@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>模型字典</title>
+
+  <script src="/static/js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/static/js/scripts.js"></script>
+
+</head>
+
+<header class="main-navigation" >
+
+  <div class="navigation-wrapper">
+
+    <a href="/home/" class="logo"></a>
+
+      <a href="javascript:void(0)" id="js-nav-mobile-menu" class="toggle-container">
+        <div class="toggle-text">Menu</div>
+        <div class="toggle-switch"><span></span></div>
+      </a>
+
+  <nav class="main-menu" role="navigation">
+    <ul id="js-nav-menu" class="navigation-menu show">
+      <div class="flex-menu">
+        <li id='time1' style="color:red;float:right"></li>
+        <li class="nav-link active"><a href="/home/" title="Home">Home</a></li>
+        <li class="nav-link"><a href="/model?db_type=&eff_flag=" title="Our Capabilities">Model</a></li>
+        <li class="nav-link"><a href="/" title="Contact">Analysis</a></li>
+        <li class="nav-link"><a href="/searchtableresult/?keyword=" title="Job">Job</a></li>
+        <li class="nav-link"><a href="/searchjobdependency" title="Blog">Blog</a></li>
+        <li class="nav-link"><a href="/admin/modelApp/table/add/" title="AddTable">AddTable</a></li>
+        <li class="nav-link"><a href="/admin" title="Admin">Admin</a></li>
+      </div>
+    </ul>
+  </nav>
+  </div>
+</header>
+
+
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <h1><span>大数据平台字典管理</span></h1>
+      <h2><span>简洁、直观、方便的模型开发工具,让模型开发更迅速、便捷</span></h2>
+      <h2 style="display:none"><span>一键生成建表语句、一键导出字典</span></h2>
+    </div>
+  </div>
+  <a class="down-arrow" href="#usp"><div>More</div><img src="/static/img/down-arrow.svg" /></a>
+    <video class="home_vid" width="1280" autoplay="" loop="" poster="/static/img/hero.png">
+    </video>
+  <div class="home_img"></div>
+</section>
+
+<div id="container1" style="height:400px;width:50%;float:left"></div>
+<div id="container2" style="height:400px;width:50%;float:left"></div>
+<div id="container3" style="height:400px;width:100%;float:left"></div>
+<div id="container4" style="height:400px;width:100%;float:left"></div>
+<div id="container5" style="height:400px;width:100%;float:left"></div>
+
+<div id="container6" style="height:400px;width:50%;float:left"></div>
+<div id="container7" style="height:400px;width:50%;float:left"></div>
+
+<hr/>
+
+<section id="usp">
+  <div class="container">
+  <div class="row">
+    <div>
+      <a href="/applabel"><img src="/static/img/home_global.png" /></a>
+      <h4 style="display:none">We Are Globally Capable</h4>
+      <h4><a href="/model?db_type=&eff_flag=">1.数据字典</a></h4>
+      <p>Our strategic office locations and culturally diverse team of digital professionals enable us to handle global projects efficiently and effectively.</p>
+    </div>
+    <div>
+      <a href="/urllabel/"><img src="/static/img/home_integrated.png" /></a>
+      <h4 style="display:none">We Are Fully Integrated</h4>
+      <h4><a href="/searchtableresult/?keyword=">2.作业查找</a></h4>
+      <p>We have the in-house talent to manage and deliver the end-to-end digital solutions your company needs to succeed.</p>
+    </div>
+    <div>
+      <a href="/staticindustryrule/"><img src="/static/img/home_integrated.png" /></a>
+      <h4 style="display:none">We Are Fully Integrated</h4>
+      <h4><a href="/staticindustryrule/">3.依赖关系</a></h4>
+      <p>We have the in-house talent to manage and deliver the end-to-end digital solutions your company needs to succeed.</p>
+    </div>
+
+  </div>
+  </div>
+</section>
+
+
+<body>
+{% block content %}
+<h1></h1>
+{% endblock %}
+</body>
+{% include 'foot.html' %}
+
+<script type="text/javascript" src='/static/Highcharts-6.0.2/code/highcharts.js'></script>
+<script type="text/javascript" src='/static/Highcharts-6.0.2/code/highcharts.src.js'></script>
+<script type="text/javascript" src='/static/Highcharts-6.0.2/code/highcharts-3d.js'></script>
+<script type="text/javascript" src='/static/Highcharts-6.0.2/code/highcharts-more.js'></script>
+<script type="text/javascript" src='/static/Highcharts-6.0.2/code/highcharts-3d.src.js'></script>
+<script type="text/javascript" src='/static/Highcharts-6.0.2/code/modules/exporting.js'></script>
+<script type="text/javascript" src='/static/Highcharts-6.0.2/code/highcharts-more.src.js'></script>
+<script type="text/javascript" src="/static/js/wordcloud.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+
+Date.prototype.Format = function (fmt) {
+    var o = {
+        "M+": this.getMonth() + 1, //月份 
+        "d+": this.getDate(), //日 
+        "H+": this.getHours(), //小时 
+        "m+": this.getMinutes(), //分 
+        "s+": this.getSeconds(), //秒 
+        "q+": Math.floor((this.getMonth() + 3) / 3), //季度 
+        "S": this.getMilliseconds() //毫秒 
+    };
+    if (/(y+)/.test(fmt)) fmt = fmt.replace(RegExp.$1, (this.getFullYear() + "").substr(4 - RegExp.$1.length));
+    for (var k in o)
+    if (new RegExp("(" + k + ")").test(fmt)) fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (("00" + o[k]).substr(("" + o[k]).length)));
+    return fmt;
+}
+
+
+
+function init(){
+
+    var myDate = new Date();//获取系统当前时间
+
+    time = new Date().Format("yyyy-MM-dd HH:mm:ss");
+    $("#time1").text(time);
+
+  } 
+ 
+
+ init();
+
+ window.setInterval(init, 1000);
+
+
+
+ var option = {
+		chart: {
+				type: 'pie',
+				options3d: {
+						enabled: true,
+						alpha: 45
+				}
+		},
+		title: {
+				text: '数据库表数量分布'
+		},
+		subtitle: {
+				text: ''
+		},
+		plotOptions: {
+				pie: {
+						innerSize: 100,
+						depth: 45
+				}
+		},
+		series: [{
+				name: '表数量',
+				data: [
+						['香蕉', 8],
+						['猕猴桃', 3],
+						['桃子', 1],
+						['橘子', 6],
+						['苹果', 8],
+						['梨', 4],
+						['柑橘', 4],
+						['橙子', 1],
+						['葡萄', 1]
+				]
+		}]
+ };
+
+
+  Highcharts.chart('container1',option);
+
+
+//2.
+  var chart = Highcharts.chart('container2', {
+	chart: {
+		type: 'line'
+	},
+	title: {
+		text: '月平均气温'
+	},
+	subtitle: {
+		text: '数据来源: WorldClimate.com'
+	},
+	xAxis: {
+		categories: ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月']
+	},
+	yAxis: {
+		title: {
+			text: '气温 (°C)'
+		}
+	},
+	plotOptions: {
+		line: {
+			dataLabels: {
+				// 开启数据标签
+				enabled: true
+			},
+			// 关闭鼠标跟踪，对应的提示框、点击事件会失效
+			enableMouseTracking: false
+		}
+	},
+	series: [{
+		name: '东京',
+		data: [7.0, 6.9, 9.5, 14.5, 18.4, 21.5, 25.2, 26.5, 23.3, 18.3, 13.9, 9.6]
+	}, {
+		name: '伦敦',
+		data: [3.9, 4.2, 5.7, 8.5, 11.9, 15.2, 17.0, 16.6, 14.2, 10.3, 6.6, 4.8]
+	}]
+});
+
+
+
+//3.
+var chart = Highcharts.chart('container3', {
+	chart: {
+		type: 'areaspline'
+	},
+	title: {
+		text: '不同家庭一周水果消费情况'
+	},
+	legend: {
+		layout: 'vertical',
+		align: 'left',
+		verticalAlign: 'top',
+		x: 150,
+		y: 100,
+		floating: true,
+		borderWidth: 1,
+		backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'
+	},
+	xAxis: {
+		categories: [
+			'周一','周二','周三','周四','周五','周六','周日'
+		],
+		plotBands: [{ // 标识出周末
+			from: 0,
+			to: 0,
+			color: 'rgba(68, 170, 213, .2)'
+		}]
+	},
+	yAxis: {
+		title: {
+			text: '水果 单位'
+		}
+	},
+	tooltip: {
+		shared: true,
+		valueSuffix: ' 单位'
+	},
+	plotOptions: {
+		areaspline: {
+			fillOpacity: 0.5
+		}
+	},
+	series: [{
+		name: '小张',
+		data: [3, 4, 3, 5, 4, 10, 12]
+	}, {
+		name: '小潘',
+		data: [1, 3, 4, 3, 3, 5, 4]
+	}]
+});
+
+
+//4.
+var chart1 = Highcharts.chart('container4', {
+	chart: {
+		type: 'columnrange', // columnrange 依赖 highcharts-more.js
+		inverted: true
+	},
+	title: {
+		text: '每月温度变化范围'
+	},
+	subtitle: {
+		text: '2009 挪威某地'
+	},
+	xAxis: {
+		categories: ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月']
+	},
+	yAxis: {
+		title: {
+			text: '温度 ( °C )'
+		}
+	},
+	tooltip: {
+		valueSuffix: '°C'
+	},
+	plotOptions: {
+		columnrange: {
+			dataLabels: {
+				enabled: true,
+				formatter: function () {
+					return this.y + '°C';
+				}
+			}
+		}
+	},
+	legend: {
+		enabled: false
+	},
+	series: [{
+		name: '温度',
+		data: [
+			[-9.7, 9.4],
+			[-8.7, 6.5],
+			[-3.5, 9.4],
+			[-1.4, 19.9],
+			[0.0, 22.6],
+			[2.9, 29.5],
+			[9.2, 30.7],
+			[7.3, 26.5],
+			[4.4, 18.0],
+			[-3.1, 11.4],
+			[-5.2, 10.4],
+			[-13.5, 9.8]
+		]
+	}]
+});
+
+
+//5. 3D 圆柱图
+Highcharts.chart('container5', {
+	chart: {
+		type: 'column',
+		options3d: {
+			enabled: true,
+			alpha:5,
+			beta: 5,
+			depth: 80,
+			viewDistance: 25
+		}
+	},
+	title: {
+		text: 'Highcharts 3D 圆柱图'
+	},
+	plotOptions: {
+		series: {
+			depth: 25,
+			colorByPoint: true
+		}
+	},
+	series: [{
+		data: [29.9, 71.5, 106.4, 129.2, 144.0, 176.0, 135.6, 148.5, 216.4, 194.1, 95.6, 54.4],
+		name: 'Cylinders',
+		showInLegend: true
+	}]
+});
+
+
+//6.蜘蛛图
+var chart = Highcharts.chart('container6', {
+		chart: {
+				polar: true,
+				type: 'line'
+		},
+		title: {
+				text: '预算与支出',
+				x: -80
+		},
+		pane: {
+				size: '80%'
+		},
+		xAxis: {
+				categories: ['销售', '市场营销', '发展', '客户支持',
+										 '信息技术', '行政管理'],
+				tickmarkPlacement: 'on',
+				lineWidth: 0
+		},
+		yAxis: {
+				gridLineInterpolation: 'polygon',
+				lineWidth: 0,
+				min: 0
+		},
+		tooltip: {
+				shared: true,
+				pointFormat: '<span style="color:{series.color}">{series.name}: <b>${point.y:,.0f}</b><br/>'
+		},
+		legend: {
+				align: 'right',
+				verticalAlign: 'top',
+				y: 70,
+				layout: 'vertical'
+		},
+		series: [{
+				name: '预算拨款',
+				data: [43000, 29000, 60000, 45000, 27000, 10000],
+				pointPlacement: 'on'
+		}, {
+				name: '实际支出',
+				data: [50000, 39000, 42000, 31000, 26000, 14000],
+				pointPlacement: 'on'
+		}]
+});
+
+
+//7.词云图
+var text = 'sectetur adipiscing elit'
+
+var data = text.split(/[,\. ]+/g)
+.reduce(function (arr, word) {
+	var obj = arr.find(function (obj) {
+		return obj.name === word;
+	});
+	if (obj) {
+		obj.weight += 1;
+	} else {
+		obj = {
+			name: word,
+			weight: 1
+		};
+		arr.push(obj);
+	}
+	return arr;
+}, []);
+
+//select fields_cn_name,count(*) as pv  from  integ_fields where fields_cn_name not in ('日期','月份','手机号码','小时','分区日期') group by fields_cn_name order by pv desc limit 20 ;
+
+//alert(data[0]['name']);
+
+data = [{name:'hadoop',weight:100},
+    {name:'hive',weight:80},
+    {name:'spark',weight:200},
+    {name:'大数据',weight:60},
+    {name:'人工智能',weight:20},
+    {name:'数据挖掘',weight:100},
+    ]
+
+Highcharts.chart('container7', {
+	series: [{
+		type: 'wordcloud',
+		data: data
+	}],
+	title: {
+		text: '词云图'
+	}
+});
+
+
+});
+
+</script>
+
+</html>

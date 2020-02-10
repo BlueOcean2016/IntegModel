@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="29px" height="30px" viewBox="0 0 29 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title> + Line Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-2" sketch:type="MSArtboardGroup" transform="translate(-507.000000, -1075.000000)">
+            <g id="-+-Line-Copy-2" sketch:type="MSLayerGroup" transform="translate(520.000000, 1092.000000) rotate(-270.000000) translate(-520.000000, -1092.000000) translate(505.000000, 1076.000000)">
+                <path d="M0.5,14.5 L23.5512466,14.5" id="Line" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+                <path d="M27.9335937,14.6071429 C27.9335937,14.8537959 27.8387286,15.0719857 27.6489955,15.2617188 L14.3867187,28.5239955 C14.1969857,28.7137286 13.9787959,28.8085938 13.7321429,28.8085938 C13.4854898,28.8085938 13.2673001,28.7137286 13.077567,28.5239955 L11.6545759,27.1010045 C11.4648428,26.9112714 11.3699777,26.6930816 11.3699777,26.4464286 C11.3699777,26.1997756 11.4648428,25.9815858 11.6545759,25.7918527 L22.8392857,14.6071429 L11.6545759,3.42243304 C11.4648428,3.23269994 11.3699777,3.01451016 11.3699777,2.76785714 C11.3699777,2.52120412 11.4648428,2.30301434 11.6545759,2.11328125 L13.077567,0.690290179 C13.2673001,0.500557087 13.4854898,0.405691964 13.7321429,0.405691964 C13.9787959,0.405691964 14.1969857,0.500557087 14.3867187,0.690290179 L27.6489955,13.952567 C27.8387286,14.1423001 27.9335937,14.3604898 27.9335937,14.6071429 L27.9335937,14.6071429 Z" id="" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

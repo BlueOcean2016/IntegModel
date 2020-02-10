@@ -24,3 +24,4 @@ python manage.py createsuperuser
 
 admin
 admin@123
+
