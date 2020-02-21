@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+  
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    
+  
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Excellence in Digital Innovation | InnoCellence</title>
+<link href="blog.innocellence.com/rss/" rel="alternate" type="application/rss+xml" title="InnoCellence Feed" />
+<link rel="stylesheet" type="text/css" href="/static/css/syntax.css">
+<link rel="stylesheet" type="text/css" href="/static/css/style.css">
+
+<script src="/static/js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="/static/js/scripts.js"></script>
+
+<link rel="shortcut icon" href="/static/img/favicon.ico">
+
+
+<link rel="stylesheet" href="/static/css/select2.min.css">
+<script src="/static/js/jquery-3.2.1.min.js"></script>
+<script src="/static/js/select2.full.min.js"></script>
+
+
+<link href="/static/css/buttons.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="/static/bootstrap-3.3.7/docs/dist/css/bootstrap.min.css">
+<link href="http://cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="http://cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <script src="https://gw.alipayobjects.com/os/antv/pkg/_antv.g6-3.0.0/build/g6.js"></script>
+<script src="https://a.alipayobjects.com/jquery/jquery/1.11.1/jquery.js"></script>
+<script src="https://gw.alipayobjects.com/os/antv/assets/g6/1.2.8/g6.min.js"></script>
+
+<script src="/static/bootstrap-3.3.7/docs/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/static/js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="/static/js/buttons.js"></script>
+<script type="text/javascript" src="/static/js/jquery.pin.js"></script>
+
+<style>
+     .ondisplay{
+       display:inline;
+       text-align:center;
+     }
+     .offdisplay{
+         display:none;
+     }
+     
+     .bluelabel{
+         color:blue;
+     }
+    td,th{
+        text-align:left;
+        white-space: nowrap;
+    }
+     
+    select{
+   background-color:white;
+   height:40px;
+   border-radius:5px;
+   box-shadow: 0 0 5px #ccc;
+   position: relative;
+   box-shadow: 0 0 5px #ccc;
+   width: 20%;
+   height: 40px;
+   margin-top:150px;
+}
+
+
+    .develop{
+        background-color:#FF4500;
+        font-weight:bold;
+    }
+    
+    .test{
+        background-color:#0000CD;
+        font-weight:bold;
+    }
+    
+    .product{
+        background-color:#00FF00;
+        font-weight:bold;
+    }
+    
+    .label{
+        font-size:15px;
+        margin-bottom:10px;
+        margin-right:10px;
+    }
+
+        
+     
+</style>
+
+</head>
+
+{% include 'head.html' %}
+
+<body>
+
+{% block content %}
+<div class="container1" align="center">
+
+<a style="display:none" class="btn btn-lg btn-primary btn-shadow" href="javascript:history.back(-1)">返回</a>
+
+ <div style="display:none" id="box" align="center" class="search" >
+        <input type="text" id="keywords" border="1" style="background-color:#E6E6E6;" name="search" placeholder="请输入关键字"><span id="search" style="float:center;" class="btn btn-lg button-action">&nbsp;&nbsp;&nbsp;搜索&nbsp;&nbsp;&nbsp;</span>
+ </div>
+
+
+ <div class="select1" style="display:none">
+        <select class="mySelect">
+            <option>西瓜</option>
+            <option>苹果</option>
+            <option>香蕉</option>
+            <option>菠萝</option>
+            <option>桃子</option>
+        </select>
+    </div>
+ 
+ 
+<h3>
+   <p><span>表名称:</span><span class=""></span>{{ db_name }}.{{table.tb_name}}&nbsp;&nbsp;</sapn><span><a class="label label-danger" href="/admin/integ_model/table/{{ table.id}}/change/" target="_blank">编辑</a></span>
+   <sapn><a class="label label-success" href="/fields/tb_id={{ table.id }}" target="">返回字典</a></sapn></p>
+   <sapn><a class="label label-success" href="/table/db={{ table.db_name_id.id }}" target="">返回数据库列表</a></sapn></p>
+   <p><span>作业名称:</sapn><span>{{ table.tb_job }}</sapn></p></h3>
+
+
+     <h1 id="Relation">血缘关系图</h1>
+    <div id="c1"></div>
+
+<div style="display:none">
+    <p class="label label-primary">{{ db_type }}</p>
+    <p class="label label-warning">{{ db_name }}</p>
+    <p class="label label-success">{{ db_cn_name }}</p>
+    <p class="label label-info">{{ table.tb_cn_name }}</p>
+    <p class="label label-warning">{{ table.table_theme }}</p>
+    <p class="label label-danger">{{ table.table_level }}</p>
+    <hr/>
+    <p class="label label-danger">
+         {% if table.manage_external_flag == '1' %}
+               外部表
+            {% elif  table.manage_external_flag == '0' %}
+               管理表
+            {% else %}
+                 
+           {% endif %}
+    </p>
+    
+    <p class="label label-warning">
+          {% if table.partition_flag == '1' %}
+               分区表
+            {% elif  table.partition_flag == '0' %}
+               非分区表
+            {% else %}
+               
+           {% endif %}
+           
+     </p>
+    <p class="label label-info">
+        {% if table.sd_flag == '1' %}
+               全量表
+            {% elif  table.sd_flag == '0' %}
+               增量表
+            {% else %}
+                 
+           {% endif %}
+    </p>
+    
+    <p class="label label-success">{{ table.state_flag }}</p>
+    <p class="label label-primary">{{ table.author }}</p>
+    <p class="label label-default">{{ table.update_date }}</p>
+
+</div>
+
+<p> hdfs路径:&nbsp;&nbsp;<span style=""><b>{{ table.hdfsfile }}</b></sapn></p>
+
+
+
+<h1 style="display:none">{{ AfterTableDependencys }}</h1>
+
+<h1 style="display:none">{{ BeforeTableDependencys }}</h1>
+
+
+<hr/>
+<h1 style="">前置依赖表<a href="/addbeforejobdependency/tb_id={{ table.id }}">(编辑)</a></h1>
+<h1 style="display:none">前置依赖表<a href="/admin/integ_model/tabledependency/add/" target="_blank">(编辑)</a></h1>
+<table id="fieldstable1" class="table table-bordered table-striped" style="width:95%;" align="center">
+  <thead>
+    <tr>
+      <th width="60px">序号</th>
+      <th width="30%">表名称</th>
+      <th width="30%">表中文解释</th>
+      <th width="200px">标签</th>
+      <th width="210px">依赖关系</th>
+      <th>操作</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for indextable in BeforeTable %}
+     <tr>
+      <td><a href="/admin/integ_model/table/{{ indextable.id }}/change/" target="_blank">{{ forloop.counter }}</a></td>
+      
+      <td><a href="/fields/db={{ indextable.db_name_id }}/table={{ indextable.tb_name }}"><span class='offdisplay'>{{ db_name }}.</span><b>{{ indextable.tb_name }}</b></a></td>
+      
+      <td><b><a href="/fields/db={{ indextable.db_name_id }}/table={{ indextable.tb_name }}">{{ indextable.tb_cn_name }}</a></b>&nbsp;&nbsp;&nbsp;&nbsp;<span class="button label label-warning"><a style="color:black;" href="/admin/integ_model/indextable/{{ indextable.id }}/change/" target="_blank" >编辑</a></span></td>
+      
+      <td class="">
+            <span class="label label-primary">
+           {% if indextable.partition_flag == '1' %}
+               分区表
+            {% elif  indextable.partition_flag == '0' %}
+               非分区表
+            {% else %}
+               
+           {% endif %}
+           
+           {% if indextable.sd_flag == '1' %}
+               全量表
+            {% elif  indextable.sd_flag == '0' %}
+               增量表
+            {% else %}
+                 
+           {% endif %}
+         
+
+            {% if indextable.manage_external_flag == '1' %}
+               外部表
+            {% elif  indextable.manage_external_flag == '0' %}
+               管理表
+            {% else %}
+                 
+           {% endif %}
+       
+         </span>
+      </td>
+
+      <td>
+      <span class="label label-warning button-tiny"><a style="color:white" href="/tabledependency/tb_id={{ indextable.id }}" target="_blank" >依赖关系</a></span>
+      <span class="label label-info button-tiny" style="display:none"><a style="color:white" href="/">后置表>></a></span>
+      </td>
+     <td><a class="button button-primary button-rounded button-small button-caution button_delete" href="/addbeforejobdependency/tb_id={{table.id}}/?add_delete_type=delete&before_table_id={{indextable.id}}"><b>删除</b></a></td>
+     </tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+
+ <p style="display:none"><span><a class="label label-success" href="/addbeforejobdependency/tb_id={{ table.id }}" target="">添加前置依赖表</a></span></p>
+
+ <div style="display" id="box" align="center" class="search" >
+       <a href="/addbeforejobdependency/tb_id={{ table.id }}"><span style="float:center;" class="btn btn-lg button-action">&nbsp;&nbsp;&nbsp;添加前置依赖表&nbsp;&nbsp;&nbsp;</span></a>
+ </div>
+ 
+ 
+<h1>{{ db_name }}.{{table.tb_name}}&nbsp;&nbsp;</h1>
+
+<hr/>
+
+<h1 style="">后置依赖表</h1>
+<table style="" id="fieldstable2" class="table table-bordered table-striped" style="width:95%;" align="center">
+  <thead>
+    <tr>
+      <th width="60px">序号</th>
+      <th width="30%">表名称</th>
+      <th width="30%">表中文解释</th>
+      <th width="200px">标签</th>
+      <th width="210px">依赖关系</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for table in AfterTable %}
+     <tr>
+      <td><a href="/admin/integ_model/table/{{ table.id }}/change/" target="_blank">{{ forloop.counter }}</a></td>
+      
+      <td><a href="/fields/db={{ table.db_name_id }}/table={{ table.tb_name }}"><span class='offdisplay'>{{ db_name }}.</span><b>{{ table.tb_name }}</b></a></td>
+      
+      <td><b><a href="/fields/db={{ table.db_name_id }}/table={{ table.tb_name }}">{{ table.tb_cn_name }}</a></b>&nbsp;&nbsp;&nbsp;&nbsp;<span class="button label label-warning"><a style="color:black;" href="/admin/integ_model/table/{{ table.id }}/change/" target="_blank" >编辑</a></span></td>
+      
+      <td class="">
+            <span class="label label-primary">
+           {% if table.partition_flag == '1' %}
+               分区表
+            {% elif  table.partition_flag == '0' %}
+               非分区表
+            {% else %}
+               
+           {% endif %}
+           
+           {% if table.sd_flag == '1' %}
+               全量表
+            {% elif  table.sd_flag == '0' %}
+               增量表
+            {% else %}
+                 
+           {% endif %}
+         
+
+            {% if table.manage_external_flag == '1' %}
+               外部表
+            {% elif  table.manage_external_flag == '0' %}
+               管理表
+            {% else %}
+                 
+           {% endif %}
+       
+         </span>
+      </td>
+      
+      <td>
+      <span class="label label-warning button-tiny"><a style="color:white" href="/tabledependency/tb_id={{ table.id }}" target="_blank" >依赖关系</a></span>
+      <span class="label label-info button-tiny" style="display:none"><a style="color:white" href="/">后置表>></a></span>
+      </td>
+     </tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+
+
+
+</div>
+{% endblock %}
+</body>
+{% include 'foot.html' %}
+</html>
+
+
+<script type="text/javascript" src='/static/Highcharts-6.0.2/code/highcharts.js'></script>
+<script type="text/javascript" src='/static/Highcharts-6.0.2/code/highcharts.src.js'></script>
+<script type="text/javascript" src='/static/Highcharts-6.0.2/code/highcharts-3d.js'></script>
+<script type="text/javascript" src='/static/Highcharts-6.0.2/code/highcharts-more.js'></script>
+<script type="text/javascript" src='/static/Highcharts-6.0.2/code/highcharts-3d.src.js'></script>
+<script type="text/javascript" src='/static/Highcharts-6.0.2/code/modules/exporting.js'></script>
+<script type="text/javascript" src='/static/Highcharts-6.0.2/code/highcharts-more.src.js'></script>
+<script type="text/javascript" src="/static/js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="/static/js/wordcloud.js"></script>
+<script type="text/javascript" src="/static/js/simple-calendar.js"></script>
+<script type="text/javascript" src="/static/js/jquery.pin.js"></script>
+
+<script type="text/javascript" src="http://cdn.bootcss.com/bootstrap-select/2.0.0-beta1/js/bootstrap-select.js"></script> 
+
+<script type="text/javascript">
+
+function start_show_test(nodes,edges)
+{
+// 第一步：获取数据
+var data = {
+  "nodes": [
+    {
+      "shape": "rect",
+      "label": "首页",
+      "keep": 0,
+      "runoff": 100,
+      "id": "add1174b"
+    },
+    {
+      "shape": "rect",
+      "label": "页面1",
+      "keep": 70,
+      "runoff": 30,
+      "id": "fbc69eaa"
+    },
+    {
+      "shape": "rect",
+      "label": "页面2",
+      "keep": 10,
+      "runoff": 90,
+      "id": "6d0df4b8"
+    },
+    {
+      "shape": "rect",
+      "label": "页面3",
+      "keep": 40,
+      "runoff": 60,
+      "id": "fcaedf74"
+    },
+    {
+      "shape": "rect",
+      "label": "页面4",
+      "keep": 1,
+      "runoff": 99,
+      "id": "0ce831a6"
+    },
+    {
+      "shape": "rect",
+      "label": "页面5",
+      "keep": 15,
+      "runoff": 85,
+      "id": "46c87dc5"
+    },
+    {
+      "shape": "rect",
+      "label": "页面6",
+      "keep": 1,
+      "runoff": 99,
+      "id": "a7ae06e1"
+    },
+    {
+      "shape": "rect",
+      "label": "页面7",
+      "keep": 1,
+      "runoff": 99,
+      "id": "97d725aa"
+    },
+    {
+      "shape": "rect",
+      "label": "页面8",
+      "keep": 1,
+      "runoff": 99,
+      "id": "1009d1ce"
+    }
+  ],
+  "edges": [
+    {
+      "source": "add1174b",
+      "target": "fbc69eaa",
+      "val": 30,
+      "id": "ae85ce02"
+    },
+    {
+      "source": "add1174b",
+      "target": "6d0df4b8",
+      "val": 30,
+      "id": "4f2a272a"
+    },
+    {
+      "source": "add1174b",
+      "target": "fcaedf74",
+      "val": 30,
+      "id": "e1d27d5d"
+    },
+    {
+      "source": "fbc69eaa",
+      "target": "0ce831a6",
+      "val": 30,
+      "id": "ebb1bb90"
+    },
+    {
+      "source": "fbc69eaa",
+      "target": "46c87dc5",
+      "val": 30,
+      "id": "de5483e7"
+    },
+    {
+      "source": "fcaedf74",
+      "target": "a7ae06e1",
+      "val": 30,
+      "id": "38631f93"
+    },
+    {
+      "source": "6d0df4b8",
+      "target": "97d725aa",
+      "val": 30,
+      "id": "ca7e320d"
+    },
+    {
+      "source": "46c87dc5",
+      "target": "1009d1ce",
+      "val": 30,
+      "id": "7dc8fe14"
+    },
+    {
+      "source": "fbc69eaa",
+      "target": "a7ae06e1",
+      "val": 30,
+      "id": "a0318c7b"
+    },
+  ]
+};
+
+data.nodes = nodes;
+data.edges= edges;
+
+
+// 第二步：注册图形
+G6.registNode('rect', {
+  // 设置锚点
+  getAnchorPoints: function(){
+    return [
+      [1, 0.5], // 右边边的中点
+      [0, 0.5] // 左边边的中点
+    ];
+  }
+});
+
+
+// 第三步：进行布局
+var Layout = G6.Layout;
+var margin = 60;
+var height = 800 - 2 * margin;
+var width = 500 - 2 * margin;
+var nodes = data.nodes;
+var edges = data.edges;
+var layout = new Layout.Flow({
+  nodes: nodes,
+  edges: edges
+});
+nodes = layout.getNodes();
+nodes.map(function(node) {
+  var x = node.x * width + margin;
+  var y = node.y * height + margin;
+  node.x = y;
+  node.y = x;
+});
+
+// 第四步：初始化图
+var net = new G6.Net({
+  id: "c1",            // 此处替换容器id
+  height: 450,         // 此处替换高度
+  fitView: 'autoZoom', // 自动缩放
+});
+
+// 第五步：载入数据
+net.source(nodes, edges);
+
+// 第六步：数据映射
+net.node()
+  .style(function(obj){
+    var domain = 100;
+    var keep = obj.keep;
+    var runoff = obj.runoff;
+    var keepRatio = keep/domain;
+    var runoffRatio = runoff/domain;
+    var attrs = {};
+    if(keep && runoff){
+      attrs.fill = 'l (0) 0:#00A263 ' + keepRatio + ':#00A263 ' + keepRatio + ':#E6504A';
+    }
+    attrs.fillOpacity = 0.4;
+    return attrs;
+  });
+net.edge()
+  .size(function(obj){
+    return obj.val/100 * 6;
+  })
+  .shape('smooth')
+  .style({
+    stroke: "#00A263",
+    strokeOpacity: 0.6,
+    arrow: true
+  });
+
+// 第七步：添加图例
+/*
+net.add('node', {
+  "shape": "circle",
+  "label": "留存",
+  "x": 370,
+  "y": 500,
+  "size": 40,
+  "color": "#00A263",
+  "id": "2ff55156"
+});
+
+net.add('node', {
+  "shape": "circle",
+  "label": "流失",
+  "x": 440,
+  "y": 500,
+  "size": 40,
+  "color": "#E54E48",
+  "id": "0c134755"
+});
+*/
+
+// 第八步：渲染关系图
+net.render();
+}
+
+
+$(document).ready(function(){
+
+ //获取表的id
+ keywords = {{ table.id}};
+ //alert(keywords);
+
+ $.get("/execRelation/",{'keywords':keywords}, function(ret){
+        //alert(ret.data);
+        //alert(ret.nodes);
+        //alert(ret.edges);
+        $("#c1").remove();
+        $("#Relation").append("<div id='c1'></div>");
+        start_show_test(ret.nodes,ret.edges);
+
+    });
+
+});
+
+</script>
+
+</html>

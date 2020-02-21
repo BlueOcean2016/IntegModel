@@ -25,6 +25,9 @@ from modelApp.models import Table
 #7.字段
 from modelApp.models import Fields
 
+
+#7.依赖关系
+from modelApp.models import TableDependency
 # Register your models here.
 
 
@@ -36,5 +39,5 @@ admin.site.register(Database)
 admin.site.register(Table)
 admin.site.register(Fields)
 #admin.site.register(BusinessLine)
-#admin.site.register(TableDependency)
+admin.site.register(TableDependency)
 #admin.site.register(Fields)

@@ -399,3 +399,26 @@ class Fields(models.Model):
     def __str__(self):
         # return "{}.{}  {}--{}".format(self.db_name,self.tb_name,self.fields_name,self.fields_cn_name)
         return "{}".format(self.fields_name)
+
+
+#表链路关系
+class TableDependency(models.Model):
+    #前置作业名称
+    before_table_id = models.ForeignKey(Table,on_delete=models.CASCADE,verbose_name='前置表',related_name='before_table_id')
+    #后置作业名称
+    after_table_id = models.ForeignKey(Table,on_delete=models.CASCADE,verbose_name='后置表',related_name='after_table_id')
+    remark = models.TextField(blank=True,default="",verbose_name="备注作业")
+    #创建时间auto_now_add为添加时的时间，更新对象时不会有变动
+    create_date = models.DateTimeField(auto_now_add=True)
+    #修改时间 auto_now无论是你添加还是修改对象
+    #时间为你添加或者修改的时间
+    update_date = models.DateTimeField(auto_now=True)
+    class Meta:
+        db_table="integ_table_dependency"
+        unique_together=("before_table_id","after_table_id")
+        verbose_name='表引用关系'
+
+    def __str__(self):
+        return "{}--{}".format(self.before_table_id,self.after_table_id)
+
+

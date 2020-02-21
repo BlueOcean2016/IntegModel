@@ -1,0 +1,125 @@
+<!-- demo.html  select2用法说明 -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/static/css/select2.min.css">
+    <link href="/static/css/buttons.css" rel="stylesheet" type="text/css" />
+    <script src="/static/js/jquery-3.2.1.min.js"></script>
+    <script src="/static/js/select2.full.min.js"></script>
+    
+    <script src="/static/js/bootstrap-select.min.js"></script>
+    <link href="/static/css/bootstrap-select.min.css" rel="stylesheet" type="text/css" />
+    
+
+    <script src="/static/bootstrap-3.3.7/docs/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/static/js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="/static/js/buttons.js"></script>
+<script type="text/javascript" src="/static/js/jquery.pin.js"></script>
+    
+<body>
+<div class="container" align="center">
+    <h1 id="cur_id">{{table.id}}</h1>
+    <h1>表名称:{{ table.tb_name }}</h1>
+ <table id="fieldstable" class="table table-bordered table-striped" style="width:80%;display:none" align="center">
+  <thead>
+    <tr>
+      <th width="50%">前置依赖作业</th>
+      <th>操作</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for table in BeforeTable %}
+    <tr>
+        <td>{{ table.tb_name }}</td>
+        <td>
+            <select class="selectpicker show-tick form-control" data-live-search="true" > {% for table in AllTable %} <option value="{{ table.id }}">{{ table.tb_name }} </option>{% endfor %}</select>
+        </td>
+        
+        
+        <td><button class="button button-small button-highlight button_add"><b>添加</b></button><button class="button button-primary button-rounded button-small button-caution button_delete"><b>删除</b></button></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<div style="width:80%;">
+
+<select id="before_table_id" class="form-control show-tick  selectpicker"  data-live-search="true" title="请选择前置依赖表">
+    {% for table in AllTable %} 
+    <option value="{{ table.id }}">{{ table.tb_name }} </option>
+    {% endfor %}                        
+</select>
+<div>
+
+<button id="save" class="button button-glow button-rounded button-action" style="float:center">Save</button>
+<button id="reflash" class="button button-glow button-rounded button-action" style="float:center">返回</button>
+
+
+
+
+
+</div>
+    <select id="" class=""  data-live-search="true" title="请选择前置依赖表">
+    {% for table in AllTable %}
+    <option value="{{ table.id }}">{{ table.tb_name }} </option>
+    {% endfor %}
+</select>
+<div>
+
+
+
+<script type="text/javascript" src="/static/js/buttons.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+
+//点击返回
+$("#reflash").click(function(){
+ 
+ //当前表id
+     cur_id = $("#cur_id").text()
+     url = '/tabledependency/tb_id='+cur_id ;
+     window.location = url;
+
+});
+
+
+ //点击添加按钮
+$("#save").click(function(){
+        //当前表id
+        cur_id = $("#cur_id").text()
+
+        //获取前置表ID
+        id = $("#before_table_id").val()
+
+        //url = "/addbeforejobdependency/tb_id%3D"+cur_id+"/?before_table_id="+id
+        var currentURL = window.location; 
+        //alert(currentURL.host+url);
+        //url = currentURL.host+url;
+        //url = 'http://129.204.81.232:8000/addbeforejobdependency/tb_id='+cur_id+'/?add_delete_type=add&before_table_id='+id;
+        url = 'http://'+ currentURL.host + '/addbeforejobdependency/tb_id='+cur_id+'/?add_delete_type=add&before_table_id='+id;
+        //alert(url);
+        //alert(currentURL.host+url);
+        alert("添加依赖"+"------"+"保存成功");
+        window.location = url;
+        //window.location = 'http://www.baidu.com';
+        //windows.open('http://'+url);
+         //alert(url);
+        //keywords="杭州";
+        //window.open("https://www.baidu.com/s?word="+keywords); 
+        //alert(cur_id+'添加保存'+id);
+        //windows.open(url);
+        //alert("保存成功");
+    });   
+
+
+    
+});
+</script>
+
+
+</html>

@@ -23,5 +23,16 @@ urlpatterns = [
     url(r'^home/$', modelAppViews.home, name='home'),
     url(r'^model/$', modelAppViews.model, name='model'),
     url(r'^table/db=(.*)/$',modelAppViews.table,name='table'),
-
+    url(r'^fields/tb_id=(.*)/$',modelAppViews.fields,name='fields'),
+    url(r'^saveFields/$',modelAppViews.saveFields,name='saveFields'),
+    url(r'^fields_detail/field_id=(.*)/$',modelAppViews.fields_detail,name='fields_detail'),
+    url(r'^updateFields/$',modelAppViews.updateFields,name='updateFields'),
+    url(r'^searchtableresult/$',modelAppViews.searchtableresult,name='searchtableresult'),
+    url(r'^searchfieldresult/$',modelAppViews.searchfieldresult,name='searchfieldresult'),
+    url(r'^createTableSql/$',modelAppViews.createTableSql,name='createTableSql'),
+    url(r'^exportTable/db_id=(.*)/tb_id=(.*)/$',modelAppViews.exportTable,name='exportTable'),
+    url(r'^tabledependency/tb_id=(.*)/$',modelAppViews.tabledependency,name='tabledependency'),
+    url(r'^addbeforejobdependency/tb_id=(.*)/$',modelAppViews.addbeforejobdependency,name='addbeforejobdependency'),
+    url(r'^searchjobdependency/$',modelAppViews.searchjobdependency,name='searchjobdependency'),
+    url(r'^execRelation/$',modelAppViews.execRelation,name='execRelation'),
 ]
