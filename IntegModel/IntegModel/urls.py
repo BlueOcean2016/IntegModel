@@ -21,4 +21,7 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', modelAppViews.home, name='home'),
     url(r'^home/$', modelAppViews.home, name='home'),
+    url(r'^model/$', modelAppViews.model, name='model'),
+    url(r'^table/db=(.*)/$',modelAppViews.table,name='table'),
+
 ]

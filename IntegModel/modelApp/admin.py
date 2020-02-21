@@ -18,9 +18,15 @@ from modelApp.models import TableLevel
 
 #5.数据库
 from modelApp.models import Database
+
 #6.表
 from modelApp.models import Table
+
+#7.字段
+from modelApp.models import Fields
+
 # Register your models here.
+
 
 admin.site.register(DatabaseType)
 admin.site.register(Theme)
@@ -28,7 +34,7 @@ admin.site.register(FieldType)
 admin.site.register(TableLevel)
 admin.site.register(Database)
 admin.site.register(Table)
-
+admin.site.register(Fields)
 #admin.site.register(BusinessLine)
 #admin.site.register(TableDependency)
 #admin.site.register(Fields)

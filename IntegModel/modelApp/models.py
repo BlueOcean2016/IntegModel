@@ -295,13 +295,13 @@ class Table(models.Model):
 
     # 表状态
     STATE_CHOICES = (
-        ('开发中', '开发中'),
-        ('测试中', '测试中'),
-        ('已上线', '已上线'),
-        ('已下线', '已下线'),
-        ('其他', '其他'),
+        ('1', '开发中'),
+        ('2', '测试中'),
+        ('3', '已上线'),
+        ('4', '已下线'),
+        ('5', '其他'),
     )
-    state_flag = models.CharField(max_length=16, choices=STATE_CHOICES, verbose_name='表状态', default='开发中')
+    state_flag = models.CharField(max_length=16, choices=STATE_CHOICES, verbose_name='表状态', default='1')
 
     # 是否有效
     EFF_CHOICES = (
@@ -354,3 +354,48 @@ class Table(models.Model):
         unique_together = ("db_name_id", "tb_name")
         verbose_name = '表'
 
+
+# 字段
+class Fields(models.Model):
+    # 表id
+    tb_name_id = models.ForeignKey(Table, on_delete=models.CASCADE, verbose_name='所属表')
+    # 字段序号
+    fields_rank = models.IntegerField(verbose_name='字段序号', editable=True)
+    # 字段名称
+    fields_name = models.CharField(max_length=128, verbose_name='字段名称')
+    # 字段中文名称
+    fields_cn_name = models.CharField(max_length=128, verbose_name='字段解释')
+    # 字段类型
+    fields_type = models.ForeignKey(FieldType, on_delete=models.PROTECT, verbose_name='字段类型')
+
+    # 是否分区字段
+    PARTITION_CHOICES = (
+        ('1', '是'),
+        ('0', '否'),
+    )
+
+    partition_flag = models.CharField(max_length=16, choices=PARTITION_CHOICES, verbose_name='是否分区字段', default='0')
+
+    # 是否有效
+    # EFF_CHOICES = (
+    #     ('0', '无效'),
+    #     ('1', '有效'),
+    # )
+
+    # eff_flag = models.CharField(max_length=16,choices=EFF_CHOICES,verbose_name='是否有效',default='1')
+
+    fields_detail = models.TextField(blank=True, default="来源表和字段:", verbose_name="字段规则")
+
+    create_date = models.DateTimeField(auto_now_add=True)
+
+    update_date = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        db_table = "integ_fields"
+        unique_together = ("tb_name_id", "fields_name")
+        unique_together = ("tb_name_id", "fields_rank")
+        verbose_name = '字段'
+
+    def __str__(self):
+        # return "{}.{}  {}--{}".format(self.db_name,self.tb_name,self.fields_name,self.fields_cn_name)
+        return "{}".format(self.fields_name)

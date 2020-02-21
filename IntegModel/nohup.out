@@ -1,563 +1,722 @@
-[10/Feb/2020 22:02:02] "GET /home/ HTTP/1.1" 200 1406
-[10/Feb/2020 22:02:02] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
-[10/Feb/2020 22:06:47] "GET /home/ HTTP/1.1" 200 2539
-[10/Feb/2020 22:06:47] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
-[10/Feb/2020 22:08:29] "GET /home/ HTTP/1.1" 200 2613
-[10/Feb/2020 22:08:29] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
-[10/Feb/2020 22:08:29] "GET /static/js/scripts.js HTTP/1.1" 200 4247
-[10/Feb/2020 22:08:30] "GET /home/ HTTP/1.1" 200 2613
-[10/Feb/2020 22:08:30] "GET /static/js/scripts.js HTTP/1.1" 304 0
-[10/Feb/2020 22:12:56] "GET /home/ HTTP/1.1" 200 4482
-[10/Feb/2020 22:12:57] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
-[10/Feb/2020 22:12:57] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:12:57] "GET /static/js/scripts.js HTTP/1.1" 304 0
-[10/Feb/2020 22:12:57] "GET /static/img/right-arrow.svg HTTP/1.1" 200 2242
-[10/Feb/2020 22:12:57] "GET /static/css/style.css HTTP/1.1" 200 111821
-[10/Feb/2020 22:12:57] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-Not Found: /model
-[10/Feb/2020 22:13:01] "GET /model?db_type=&eff_flag= HTTP/1.1" 404 2206
-[10/Feb/2020 22:14:58] "GET /home/ HTTP/1.1" 200 4497
-[10/Feb/2020 22:14:58] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
-[10/Feb/2020 22:14:58] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:14:58] "GET /static/css/style.css HTTP/1.1" 304 0
-[10/Feb/2020 22:14:58] "GET /static/js/scripts.js HTTP/1.1" 304 0
-[10/Feb/2020 22:14:58] "GET /static/img/right-arrow.svg HTTP/1.1" 304 0
-[10/Feb/2020 22:14:58] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:16:27] "GET /home/ HTTP/1.1" 200 7096
-[10/Feb/2020 22:16:27] "GET /static/img/down-arrow.svg HTTP/1.1" 200 2017
-[10/Feb/2020 22:16:27] "GET /static/js/scripts.js HTTP/1.1" 304 0
-[10/Feb/2020 22:16:27] "GET /static/img/hero.png HTTP/1.1" 200 279236
-[10/Feb/2020 22:16:27] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:16:27] "GET /static/css/style.css HTTP/1.1" 304 0
-[10/Feb/2020 22:16:27] "GET /static/img/home_medal.png HTTP/1.1" 200 3403
-[10/Feb/2020 22:16:27] "GET /static/img/home_integrated.png HTTP/1.1" 200 9320
-[10/Feb/2020 22:16:27] "GET /static/img/home_global.png HTTP/1.1" 200 8942
-[10/Feb/2020 22:16:27] "GET /static/img/right-arrow.svg HTTP/1.1" 304 0
-[10/Feb/2020 22:16:27] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-Not Found: /applabel
-[10/Feb/2020 22:16:34] "GET /applabel HTTP/1.1" 404 2192
-[10/Feb/2020 22:17:01] "GET /home/ HTTP/1.1" 200 7062
-[10/Feb/2020 22:17:01] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
-[10/Feb/2020 22:17:01] "GET /static/img/down-arrow.svg HTTP/1.1" 304 0
-[10/Feb/2020 22:17:01] "GET /static/img/hero.png HTTP/1.1" 304 0
-[10/Feb/2020 22:17:01] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:17:01] "GET /static/img/home_medal.png HTTP/1.1" 304 0
-[10/Feb/2020 22:17:01] "GET /static/img/home_integrated.png HTTP/1.1" 304 0
-[10/Feb/2020 22:17:01] "GET /static/img/home_global.png HTTP/1.1" 304 0
-[10/Feb/2020 22:17:01] "GET /static/img/right-arrow.svg HTTP/1.1" 304 0
-[10/Feb/2020 22:17:01] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:17:39] "GET /home/ HTTP/1.1" 200 7062
-[10/Feb/2020 22:17:39] "GET /static/js/scripts.js HTTP/1.1" 304 0
-[10/Feb/2020 22:17:39] "GET /static/img/down-arrow.svg HTTP/1.1" 304 0
-[10/Feb/2020 22:17:39] "GET /static/img/hero.png HTTP/1.1" 304 0
-[10/Feb/2020 22:17:39] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:17:39] "GET /static/css/style.css HTTP/1.1" 304 0
-[10/Feb/2020 22:17:39] "GET /static/img/home_medal.png HTTP/1.1" 304 0
-[10/Feb/2020 22:17:39] "GET /static/img/home_global.png HTTP/1.1" 304 0
-[10/Feb/2020 22:17:39] "GET /static/img/home_integrated.png HTTP/1.1" 304 0
-[10/Feb/2020 22:17:39] "GET /static/img/right-arrow.svg HTTP/1.1" 304 0
-[10/Feb/2020 22:17:39] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-Not Found: /model
-[10/Feb/2020 22:17:45] "GET /model?db_type=&eff_flag= HTTP/1.1" 404 2206
-[10/Feb/2020 22:18:08] "GET /home/ HTTP/1.1" 200 7062
-[10/Feb/2020 22:18:08] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:18:08] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:18:16] "GET /home/ HTTP/1.1" 200 7062
-[10/Feb/2020 22:18:16] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-Not Found: /model
-[10/Feb/2020 22:18:33] "GET /model?db_type=&eff_flag= HTTP/1.1" 404 2206
-[10/Feb/2020 22:18:43] "GET /home/ HTTP/1.1" 200 7062
-[10/Feb/2020 22:18:43] "GET /static/img/down-arrow.svg HTTP/1.1" 304 0
-[10/Feb/2020 22:18:43] "GET /static/js/scripts.js HTTP/1.1" 304 0
-[10/Feb/2020 22:18:43] "GET /static/img/hero.png HTTP/1.1" 304 0
-[10/Feb/2020 22:18:43] "GET /static/css/style.css HTTP/1.1" 304 0
-[10/Feb/2020 22:18:43] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:18:43] "GET /static/img/home_integrated.png HTTP/1.1" 304 0
-[10/Feb/2020 22:18:43] "GET /static/img/home_medal.png HTTP/1.1" 304 0
-[10/Feb/2020 22:18:43] "GET /static/img/home_global.png HTTP/1.1" 304 0
-[10/Feb/2020 22:18:43] "GET /static/img/right-arrow.svg HTTP/1.1" 304 0
-[10/Feb/2020 22:18:49] "GET /home/ HTTP/1.1" 200 7062
-[10/Feb/2020 22:18:49] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:18:49] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:18:59] "GET /home/ HTTP/1.1" 200 7062
-[10/Feb/2020 22:18:59] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:18:59] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
-[10/Feb/2020 22:18:59] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:19:03] "GET /home/ HTTP/1.1" 200 7062
-[10/Feb/2020 22:19:03] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:19:03] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-Not Found: /model
-[10/Feb/2020 22:19:05] "GET /model?db_type=&eff_flag= HTTP/1.1" 404 2206
-Not Found: /admin/integ_model/table/add/
-[10/Feb/2020 22:19:16] "GET /admin/integ_model/table/add/ HTTP/1.1" 404 5061
-[10/Feb/2020 22:19:37] "GET /admin/ HTTP/1.1" 200 6753
-[10/Feb/2020 22:19:39] "GET /admin/modelApp/table/ HTTP/1.1" 200 3035
-[10/Feb/2020 22:19:39] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
-[10/Feb/2020 22:19:42] "GET /admin/modelApp/table/add/ HTTP/1.1" 200 21169
-[10/Feb/2020 22:19:42] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
-[10/Feb/2020 22:20:08] "GET /admin/modelApp/table/ HTTP/1.1" 200 3035
-[10/Feb/2020 22:20:10] "GET /admin/ HTTP/1.1" 200 6753
-[10/Feb/2020 22:20:11] "GET /admin/ HTTP/1.1" 200 6753
-[10/Feb/2020 22:20:12] "GET / HTTP/1.1" 200 7059
-[10/Feb/2020 22:20:12] "GET /static/js/scripts.js HTTP/1.1" 304 0
-[10/Feb/2020 22:20:12] "GET /static/img/hero.png HTTP/1.1" 304 0
-[10/Feb/2020 22:20:12] "GET /static/img/down-arrow.svg HTTP/1.1" 304 0
-[10/Feb/2020 22:20:12] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:20:12] "GET /static/css/style.css HTTP/1.1" 304 0
-[10/Feb/2020 22:20:12] "GET /static/img/home_medal.png HTTP/1.1" 304 0
-[10/Feb/2020 22:20:12] "GET /static/img/home_global.png HTTP/1.1" 304 0
-[10/Feb/2020 22:20:12] "GET /static/img/home_integrated.png HTTP/1.1" 304 0
-[10/Feb/2020 22:20:12] "GET /static/img/right-arrow.svg HTTP/1.1" 304 0
-[10/Feb/2020 22:20:12] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:20:14] "GET /admin/modelApp/table/add/ HTTP/1.1" 200 21169
-[10/Feb/2020 22:20:14] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
-[10/Feb/2020 22:20:16] "GET /admin/modelApp/database/add/?_to_field=id&_popup=1 HTTP/1.1" 200 8301
-[10/Feb/2020 22:20:16] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
-[10/Feb/2020 22:20:34] "POST /admin/modelApp/database/add/?_to_field=id&_popup=1 HTTP/1.1" 200 364
-[10/Feb/2020 22:21:27] "GET /admin/modelApp/tablelevel/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4547
-[10/Feb/2020 22:21:27] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
-[10/Feb/2020 22:21:40] "POST /admin/modelApp/tablelevel/add/?_to_field=id&_popup=1 HTTP/1.1" 200 369
-[10/Feb/2020 22:21:42] "GET /admin/modelApp/theme/add/?_to_field=id&_popup=1 HTTP/1.1" 200 5815
-[10/Feb/2020 22:21:42] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
-[10/Feb/2020 22:21:47] "POST /admin/modelApp/theme/add/?_to_field=id&_popup=1 HTTP/1.1" 200 372
-[10/Feb/2020 22:21:53] "POST /admin/modelApp/table/add/ HTTP/1.1" 302 0
-[10/Feb/2020 22:21:53] "GET /admin/modelApp/table/ HTTP/1.1" 200 4371
-[10/Feb/2020 22:21:53] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
-[10/Feb/2020 22:21:55] "GET / HTTP/1.1" 200 7059
-[10/Feb/2020 22:21:55] "GET /static/js/scripts.js HTTP/1.1" 304 0
-[10/Feb/2020 22:21:55] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
-[10/Feb/2020 22:21:55] "GET /static/img/down-arrow.svg HTTP/1.1" 304 0
-[10/Feb/2020 22:21:55] "GET /static/img/hero.png HTTP/1.1" 304 0
-[10/Feb/2020 22:21:55] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:21:55] "GET /static/css/style.css HTTP/1.1" 304 0
-[10/Feb/2020 22:21:55] "GET /static/img/home_medal.png HTTP/1.1" 304 0
-[10/Feb/2020 22:21:55] "GET /static/img/home_global.png HTTP/1.1" 304 0
-[10/Feb/2020 22:21:55] "GET /static/img/right-arrow.svg HTTP/1.1" 304 0
-[10/Feb/2020 22:21:55] "GET /static/img/home_integrated.png HTTP/1.1" 304 0
-[10/Feb/2020 22:21:55] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-Not Found: /model
-[10/Feb/2020 22:21:57] "GET /model?db_type=&eff_flag= HTTP/1.1" 404 2206
+Unhandled exception in thread started by <function wrapper at 0x110863398>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/Library/Python/2.7/site-packages/django/core/management/commands/runserver.py", line 124, in inner_run
+    self.check(display_num_errors=True)
+  File "/Library/Python/2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/Library/Python/2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/Library/Python/2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/Library/Python/2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/Library/Python/2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/Library/Python/2.7/site-packages/django/urls/resolvers.py", line 256, in check
+    for pattern in self.url_patterns:
+  File "/Library/Python/2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Library/Python/2.7/site-packages/django/urls/resolvers.py", line 407, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/Library/Python/2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Library/Python/2.7/site-packages/django/urls/resolvers.py", line 400, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/Users/idea/Desktop/Ant/workspace/IntegModel/IntegModel/IntegModel/urls.py", line 18, in <module>
+    from modelApp import views as modelAppViews
+  File "/Users/idea/Desktop/Ant/workspace/IntegModel/IntegModel/modelApp/views.py", line 8, in <module>
+    from integ_model.models import DatabaseType,Database,Theme,FieldType,Table,Fields
+ImportError: No module named integ_model.models
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 18, 2020 - 17:26:26
+Django version 1.11.23, using settings 'IntegModel.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+[18/Feb/2020 17:26:38] "GET / HTTP/1.1" 200 12909
+Internal Server Error: /model/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/idea/Desktop/Ant/workspace/IntegModel/IntegModel/modelApp/views.py", line 64, in model
+    paginator = Paginator(databases, 10)
+NameError: global name 'Paginator' is not defined
+[18/Feb/2020 17:26:40] "GET /model/?db_type=&eff_flag= HTTP/1.1" 500 67516
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 18, 2020 - 17:26:37
+Django version 1.11.23, using settings 'IntegModel.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+Internal Server Error: /model/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/idea/Desktop/Ant/workspace/IntegModel/IntegModel/modelApp/views.py", line 94, in model
+    context['businesslines'] = businesslines
+NameError: global name 'businesslines' is not defined
+[18/Feb/2020 17:27:06] "GET /model/?db_type=&eff_flag= HTTP/1.1" 500 68570
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 18, 2020 - 17:27:03
+Django version 1.11.23, using settings 'IntegModel.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+[18/Feb/2020 17:27:26] "GET /model/?db_type=&eff_flag= HTTP/1.1" 200 20827
+[18/Feb/2020 17:27:26] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:27:26] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:27:26] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:27:26] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:27:26] "GET /static/css/simple-calendar.css HTTP/1.1" 200 3782
+[18/Feb/2020 17:27:26] "GET /static/bootstrap-3.3.7/docs/dist/js/bootstrap.min.js HTTP/1.1" 200 37045
+[18/Feb/2020 17:27:26] "GET /static/bootstrap-3.3.7/docs/dist/css/bootstrap.min.css HTTP/1.1" 200 121200
+[18/Feb/2020 17:27:26] "GET /static/css/syntax.css HTTP/1.1" 200 1961
+[18/Feb/2020 17:27:26] "GET /static/css/buttons.css HTTP/1.1" 200 80548
+[18/Feb/2020 17:27:26] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:27:26] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:27:26] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:27:26] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:27:26] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:27:26] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+Not Found: /ADPExecSql/
+[18/Feb/2020 17:27:26] "GET /ADPExecSql/?sql=select%20t2.db_name%2Ccount(*)%20from%20integ_table%20t1%20%20left%20join%20integ_db%20t2%20%20on%20t1.db_name_id_id%20%3D%20t2.id%20group%20by%20t2.db_name HTTP/1.1" 404 2484
+Not Found: /ADPExecSql/
+Not Found: /ADPExecSql/
+[18/Feb/2020 17:27:26] "GET /ADPExecSql/?sql=select%20fields_cn_name%2Ccount(*)%20as%20pv%20%20from%20%20integ_fields%20where%20fields_cn_name%20not%20in%20(%27%E6%97%A5%E6%9C%9F%27%2C%27%E6%9C%88%E4%BB%BD%27%2C%27%E6%89%8B%E6%9C%BA%E5%8F%B7%E7%A0%81%27%2C%27%E5%B0%8F%E6%97%B6%27%2C%27%E5%88%86%E5%8C%BA%E6%97%A5%E6%9C%9F%27)%20group%20by%20fields_cn_name%20order%20by%20pv%20desc%20limit%2020%20%3B HTTP/1.1" 404 2683
+Not Found: /ADPExecSql/
+[18/Feb/2020 17:27:26] "GET /ADPExecSql/?sql=select%20t2.table_theme_cn_name%20as%20table_theme_cn_name%2Ccount(t1.id)%20as%20cnt%20from%20integ_table%20t1%20right%20join%20integ_tbtheme%20t2%20on%20t1.table_theme_id%20%3D%20t2.id%20group%20by%20t2.table_theme_cn_name%3B HTTP/1.1" 404 2554
+[18/Feb/2020 17:27:26] "GET /ADPExecSql/?sql=select%20t2.table_level_cn_name%2Ccount(*)%20from%20integ_table%20t1%20left%20join%20integ_tblevel%20t2%20on%20t1.table_level_id%20%3D%20t2.id%20group%20by%20t2.table_level_cn_name HTTP/1.1" 404 2508
+[18/Feb/2020 17:27:34] "GET /model/?db_type=&eff_flag= HTTP/1.1" 200 20827
+[18/Feb/2020 17:27:34] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:27:35] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:27:35] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:27:35] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:27:35] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:27:35] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:27:35] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:27:35] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:27:35] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:27:35] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+Not Found: /ADPExecSql/
+[18/Feb/2020 17:27:35] "GET /ADPExecSql/?sql=select%20t2.db_name%2Ccount(*)%20from%20integ_table%20t1%20%20left%20join%20integ_db%20t2%20%20on%20t1.db_name_id_id%20%3D%20t2.id%20group%20by%20t2.db_name HTTP/1.1" 404 2484
+Not Found: /ADPExecSql/
+Not Found: /ADPExecSql/
+Not Found: /ADPExecSql/
+[18/Feb/2020 17:27:35] "GET /ADPExecSql/?sql=select%20fields_cn_name%2Ccount(*)%20as%20pv%20%20from%20%20integ_fields%20where%20fields_cn_name%20not%20in%20(%27%E6%97%A5%E6%9C%9F%27%2C%27%E6%9C%88%E4%BB%BD%27%2C%27%E6%89%8B%E6%9C%BA%E5%8F%B7%E7%A0%81%27%2C%27%E5%B0%8F%E6%97%B6%27%2C%27%E5%88%86%E5%8C%BA%E6%97%A5%E6%9C%9F%27)%20group%20by%20fields_cn_name%20order%20by%20pv%20desc%20limit%2020%20%3B HTTP/1.1" 404 2683
+[18/Feb/2020 17:27:35] "GET /ADPExecSql/?sql=select%20t2.table_level_cn_name%2Ccount(*)%20from%20integ_table%20t1%20left%20join%20integ_tblevel%20t2%20on%20t1.table_level_id%20%3D%20t2.id%20group%20by%20t2.table_level_cn_name HTTP/1.1" 404 2508
+[18/Feb/2020 17:27:35] "GET /ADPExecSql/?sql=select%20t2.table_theme_cn_name%20as%20table_theme_cn_name%2Ccount(t1.id)%20as%20cnt%20from%20integ_table%20t1%20right%20join%20integ_tbtheme%20t2%20on%20t1.table_theme_id%20%3D%20t2.id%20group%20by%20t2.table_theme_cn_name%3B HTTP/1.1" 404 2554
+[18/Feb/2020 17:27:38] "GET /home/ HTTP/1.1" 200 12909
+[18/Feb/2020 17:27:41] "GET /model/?db_type=&eff_flag= HTTP/1.1" 200 20827
+[18/Feb/2020 17:27:41] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:27:41] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:27:41] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:27:41] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:27:41] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:27:41] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:27:41] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:27:41] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:27:41] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:27:41] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+Not Found: /ADPExecSql/
+Not Found: /ADPExecSql/
+[18/Feb/2020 17:27:41] "GET /ADPExecSql/?sql=select%20fields_cn_name%2Ccount(*)%20as%20pv%20%20from%20%20integ_fields%20where%20fields_cn_name%20not%20in%20(%27%E6%97%A5%E6%9C%9F%27%2C%27%E6%9C%88%E4%BB%BD%27%2C%27%E6%89%8B%E6%9C%BA%E5%8F%B7%E7%A0%81%27%2C%27%E5%B0%8F%E6%97%B6%27%2C%27%E5%88%86%E5%8C%BA%E6%97%A5%E6%9C%9F%27)%20group%20by%20fields_cn_name%20order%20by%20pv%20desc%20limit%2020%20%3B HTTP/1.1" 404 2683
+Not Found: /ADPExecSql/
+[18/Feb/2020 17:27:41] "GET /ADPExecSql/?sql=select%20t2.db_name%2Ccount(*)%20from%20integ_table%20t1%20%20left%20join%20integ_db%20t2%20%20on%20t1.db_name_id_id%20%3D%20t2.id%20group%20by%20t2.db_name HTTP/1.1" 404 2484
+[18/Feb/2020 17:27:41] "GET /ADPExecSql/?sql=select%20t2.table_theme_cn_name%20as%20table_theme_cn_name%2Ccount(t1.id)%20as%20cnt%20from%20integ_table%20t1%20right%20join%20integ_tbtheme%20t2%20on%20t1.table_theme_id%20%3D%20t2.id%20group%20by%20t2.table_theme_cn_name%3B HTTP/1.1" 404 2554
+Not Found: /ADPExecSql/
+[18/Feb/2020 17:27:41] "GET /ADPExecSql/?sql=select%20t2.table_level_cn_name%2Ccount(*)%20from%20integ_table%20t1%20left%20join%20integ_tblevel%20t2%20on%20t1.table_level_id%20%3D%20t2.id%20group%20by%20t2.table_level_cn_name HTTP/1.1" 404 2508
+[18/Feb/2020 17:29:07] "GET /model/?db_type=&eff_flag= HTTP/1.1" 200 16870
+[18/Feb/2020 17:29:07] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:29:07] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:29:07] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:29:07] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:29:07] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:29:07] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:29:07] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:29:07] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:29:08] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:29:08] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:29:33] "GET /model/?db_type=&eff_flag= HTTP/1.1" 200 16493
+[18/Feb/2020 17:29:33] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:29:33] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:29:33] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:29:33] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:29:33] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:29:33] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:29:33] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:29:33] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:29:33] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:29:33] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+Not Found: /admin/integ_model/database/add/
+[18/Feb/2020 17:29:37] "GET /admin/integ_model/database/add/ HTTP/1.1" 404 5363
+[18/Feb/2020 17:30:47] "GET /model/?db_type=&eff_flag= HTTP/1.1" 200 16486
+[18/Feb/2020 17:30:47] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:30:47] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:30:48] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:30:48] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:30:48] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:30:48] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:30:48] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:30:48] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:30:48] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:30:48] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:30:50] "GET /admin/modelApp/database/add/ HTTP/1.1" 200 9267
+[18/Feb/2020 17:30:50] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[18/Feb/2020 17:31:00] "POST /admin/modelApp/database/add/ HTTP/1.1" 302 0
+[18/Feb/2020 17:31:00] "GET /admin/modelApp/database/ HTTP/1.1" 200 4634
+[18/Feb/2020 17:31:01] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[18/Feb/2020 17:31:03] "GET / HTTP/1.1" 200 12909
+[18/Feb/2020 17:31:04] "GET /model/?db_type=&eff_flag= HTTP/1.1" 200 17769
+[18/Feb/2020 17:31:04] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:31:04] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:31:04] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:31:04] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:31:04] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:31:04] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:31:04] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:31:04] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:31:05] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:31:05] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:31:13] "GET /model/?db_type=1&eff_flag= HTTP/1.1" 200 17773
+[18/Feb/2020 17:31:13] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:31:13] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:31:13] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:31:13] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:31:13] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:31:13] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:31:13] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:31:13] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:31:14] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:31:14] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:31:16] "GET /model/?db_type=1&eff_flag=1 HTTP/1.1" 200 17777
+[18/Feb/2020 17:31:16] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:31:16] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:31:16] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:31:16] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:31:16] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:31:16] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:31:16] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:31:16] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:31:16] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:31:18] "GET /model/?db_type=1&eff_flag=0 HTTP/1.1" 200 15211
+[18/Feb/2020 17:31:18] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:31:18] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:31:18] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:31:18] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:31:18] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:31:18] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:31:18] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:31:20] "GET /model/?db_type=1&eff_flag= HTTP/1.1" 200 17773
+[18/Feb/2020 17:31:20] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:31:20] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:31:20] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:31:20] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:31:20] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:31:20] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:31:20] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:31:20] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:31:20] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:31:20] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:31:23] "GET /model/?db_type=1&eff_flag= HTTP/1.1" 200 17773
+[18/Feb/2020 17:31:23] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:31:23] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:31:23] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:31:23] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:31:23] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:31:23] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:31:23] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:31:23] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:31:23] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:31:23] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+Not Found: /table/db=1
+[18/Feb/2020 17:31:24] "GET /table/db=1 HTTP/1.1" 404 2322
+Not Found: /exportTable/db_id=1/tb_id=-1
+[18/Feb/2020 17:31:30] "GET /exportTable/db_id=1/tb_id=-1 HTTP/1.1" 404 2378
+Not Found: /admin/integ_model/database/1/change/
+[18/Feb/2020 17:31:34] "GET /admin/integ_model/database/1/change/ HTTP/1.1" 404 5378
+[18/Feb/2020 17:32:05] "GET /model/?db_type=1&eff_flag= HTTP/1.1" 200 17761
+[18/Feb/2020 17:32:05] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:32:05] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:32:05] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:32:05] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:32:05] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:32:05] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:32:05] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:32:05] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:32:05] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:32:05] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+Not Found: /exportTable/db_id=1/tb_id=-1
+[18/Feb/2020 17:32:07] "GET /exportTable/db_id=1/tb_id=-1 HTTP/1.1" 404 2378
+[18/Feb/2020 17:32:11] "GET /admin/modelApp/database/1/change/ HTTP/1.1" 200 9518
+[18/Feb/2020 17:32:11] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[18/Feb/2020 17:32:23] "GET /model/?db_type=1&eff_flag= HTTP/1.1" 200 17761
+[18/Feb/2020 17:32:23] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:32:23] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:32:23] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:32:23] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:32:23] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:32:23] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:32:23] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:32:26] "GET /admin/modelApp/database/2/change/ HTTP/1.1" 200 9518
+[18/Feb/2020 17:32:26] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[18/Feb/2020 17:32:32] "GET /model/?db_type=1&eff_flag= HTTP/1.1" 200 17761
+[18/Feb/2020 17:32:32] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:32:32] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:32:32] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:32:32] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:32:32] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:32:32] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:32:32] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:32:32] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+Not Found: /table/db=1
+[18/Feb/2020 17:33:34] "GET /table/db=1 HTTP/1.1" 404 2322
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 18, 2020 - 17:27:18
+Django version 1.11.23, using settings 'IntegModel.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x10d391398>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/Library/Python/2.7/site-packages/django/core/management/commands/runserver.py", line 124, in inner_run
+    self.check(display_num_errors=True)
+  File "/Library/Python/2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/Library/Python/2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/Library/Python/2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/Library/Python/2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/Library/Python/2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/Library/Python/2.7/site-packages/django/urls/resolvers.py", line 256, in check
+    for pattern in self.url_patterns:
+  File "/Library/Python/2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Library/Python/2.7/site-packages/django/urls/resolvers.py", line 407, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/Library/Python/2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Library/Python/2.7/site-packages/django/urls/resolvers.py", line 400, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/Users/idea/Desktop/Ant/workspace/IntegModel/IntegModel/IntegModel/urls.py", line 25, in <module>
+    url(r'^table/db=(.*)/$',modelAppViews.table,name='table'),
+AttributeError: 'module' object has no attribute 'table'
+Unhandled exception in thread started by <function wrapper at 0x10892b398>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/Library/Python/2.7/site-packages/django/core/management/commands/runserver.py", line 124, in inner_run
+    self.check(display_num_errors=True)
+  File "/Library/Python/2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/Library/Python/2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/Library/Python/2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/Library/Python/2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/Library/Python/2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/Library/Python/2.7/site-packages/django/urls/resolvers.py", line 256, in check
+    for pattern in self.url_patterns:
+  File "/Library/Python/2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Library/Python/2.7/site-packages/django/urls/resolvers.py", line 407, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/Library/Python/2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Library/Python/2.7/site-packages/django/urls/resolvers.py", line 400, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/Users/idea/Desktop/Ant/workspace/IntegModel/IntegModel/IntegModel/urls.py", line 25, in <module>
+    url(r'^table/db=(.*)/$',modelAppViews.table,name='table'),
+AttributeError: 'module' object has no attribute 'table'
+[18/Feb/2020 17:39:28] "GET /model/?db_type=1&eff_flag= HTTP/1.1" 200 17761
+[18/Feb/2020 17:39:28] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:39:28] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:39:28] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:39:28] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:39:28] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:39:28] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:39:28] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:39:28] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:39:28] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:39:28] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:39:29] "GET /table/db=1 HTTP/1.1" 301 0
+[18/Feb/2020 17:39:29] "GET /table/db%3D1/ HTTP/1.1" 200 17500
+[18/Feb/2020 17:39:29] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:39:29] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:39:29] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:39:29] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:39:30] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:39:30] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:39:30] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:39:30] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:39:30] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:39:30] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:39:30] "GET /static/img/favicon.ico HTTP/1.1" 404 1658
+Not Found: /fields/tb_id=1
+[18/Feb/2020 17:39:32] "GET /fields/tb_id=1 HTTP/1.1" 404 2464
+[18/Feb/2020 17:39:36] "GET /table/db=2 HTTP/1.1" 301 0
+[18/Feb/2020 17:39:36] "GET /table/db%3D2/ HTTP/1.1" 200 16003
+[18/Feb/2020 17:39:36] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:39:36] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:39:36] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:39:36] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:39:36] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:39:36] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:39:36] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:39:36] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:39:37] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:39:37] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:39:40] "GET /table/db%3D1/ HTTP/1.1" 200 17500
+[18/Feb/2020 17:39:40] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:39:40] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:39:40] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:39:40] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:39:40] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:39:40] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:39:40] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:39:40] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:39:40] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:39:40] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+Not Found: /admin/integ_model/table/1/change/
+[18/Feb/2020 17:39:45] "GET /admin/integ_model/table/1/change/ HTTP/1.1" 404 5499
+Not Found: /fields/tb_id=1
+[18/Feb/2020 17:40:01] "GET /fields/tb_id=1 HTTP/1.1" 404 2464
+Not Found: /admin/integ_model/table/1/change/
+[18/Feb/2020 17:40:05] "GET /admin/integ_model/table/1/change/ HTTP/1.1" 404 5499
+Not Found: /admin/integ_model/table/1/change/
+[18/Feb/2020 17:40:24] "GET /admin/integ_model/table/1/change/ HTTP/1.1" 404 5499
+[18/Feb/2020 17:40:27] "GET /table/db%3D1/ HTTP/1.1" 200 17527
+[18/Feb/2020 17:40:27] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:40:27] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:40:27] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:40:27] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:40:27] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:40:27] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:40:27] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:40:27] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:40:28] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:40:28] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+Not Found: /admin/integ_model/table/1/change/
+[18/Feb/2020 17:40:29] "GET /admin/integ_model/table/1/change/ HTTP/1.1" 404 5499
+[18/Feb/2020 17:41:58] "GET /table/db%3D1/ HTTP/1.1" 200 17521
+[18/Feb/2020 17:41:58] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:41:58] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:41:58] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:41:58] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:41:58] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:41:58] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:41:58] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:41:58] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:41:59] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:41:59] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:42:00] "GET /admin/modelApp/table/1/change/ HTTP/1.1" 200 21661
+[18/Feb/2020 17:42:00] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[18/Feb/2020 17:42:16] "GET / HTTP/1.1" 200 12909
+[18/Feb/2020 17:42:18] "GET /model/?db_type=&eff_flag= HTTP/1.1" 200 17757
+[18/Feb/2020 17:42:18] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:42:18] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:42:18] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:42:18] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:42:18] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:42:18] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:42:18] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:42:18] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:42:18] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:42:18] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:42:21] "GET /table/db%3D1/ HTTP/1.1" 200 17521
+[18/Feb/2020 17:42:21] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:42:21] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:42:21] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:42:21] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:42:21] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:42:21] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:42:21] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:42:21] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:42:21] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:42:21] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:43:35] "GET /table/db%3D1/ HTTP/1.1" 200 17521
+[18/Feb/2020 17:43:35] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:43:35] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:43:35] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:43:35] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:43:35] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:43:35] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:43:35] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:43:35] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:43:35] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:43:35] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:43:39] "GET /model/?db_type=&eff_flag= HTTP/1.1" 200 17757
+[18/Feb/2020 17:43:39] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:43:39] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:43:39] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:43:39] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:43:39] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:43:39] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:43:39] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:43:43] "GET /table/db%3D1/ HTTP/1.1" 200 17521
+[18/Feb/2020 17:43:43] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:43:43] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:43:43] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:43:43] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:43:43] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:43:43] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:43:43] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:43:43] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:43:43] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:43:43] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:44:48] "GET /table/db%3D1/ HTTP/1.1" 200 17540
+[18/Feb/2020 17:44:48] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:44:48] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:44:48] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:44:48] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:44:48] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:44:48] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:44:48] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:44:48] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:44:48] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:44:48] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:46:22] "GET /table/db%3D1/ HTTP/1.1" 200 14410
+[18/Feb/2020 17:46:22] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:46:22] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:46:22] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:46:22] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:46:22] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:46:22] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:46:22] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:46:22] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:46:23] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:46:23] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:48:19] "GET /table/db%3D1/ HTTP/1.1" 200 14517
+[18/Feb/2020 17:48:19] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:48:19] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:48:19] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:48:19] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:48:19] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:48:19] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:48:19] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:48:19] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:48:19] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:48:19] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 18, 2020 - 17:38:30
+Django version 1.11.23, using settings 'IntegModel.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+[18/Feb/2020 17:50:36] "GET /table/db%3D1/ HTTP/1.1" 200 14520
+[18/Feb/2020 17:50:36] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:50:36] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:50:36] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:50:36] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:50:37] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:50:37] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:50:37] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:50:37] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:50:37] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:50:37] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:50:38] "GET /admin/modelApp/table/1/change/ HTTP/1.1" 200 21615
+[18/Feb/2020 17:50:38] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[18/Feb/2020 17:50:59] "GET / HTTP/1.1" 200 12909
 Not Found: /searchtableresult/
-[10/Feb/2020 22:22:00] "GET /searchtableresult/?keyword= HTTP/1.1" 404 2231
-[10/Feb/2020 22:22:06] "GET /admin/ HTTP/1.1" 200 7943
-[10/Feb/2020 22:22:09] "GET / HTTP/1.1" 200 7059
-[10/Feb/2020 22:22:09] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:22:09] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:24:57] "GET / HTTP/1.1" 200 7702
-[10/Feb/2020 22:24:57] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
-[10/Feb/2020 22:24:57] "GET /static/img/hero.png HTTP/1.1" 304 0
-[10/Feb/2020 22:24:57] "GET /static/img/down-arrow.svg HTTP/1.1" 304 0
-[10/Feb/2020 22:24:57] "GET /static/js/scripts.js HTTP/1.1" 304 0
-[10/Feb/2020 22:24:57] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:24:57] "GET /static/css/style.css HTTP/1.1" 304 0
-[10/Feb/2020 22:24:57] "GET /static/img/home_medal.png HTTP/1.1" 304 0
-[10/Feb/2020 22:24:57] "GET /static/img/home_integrated.png HTTP/1.1" 304 0
-[10/Feb/2020 22:24:57] "GET /static/img/right-arrow.svg HTTP/1.1" 304 0
-[10/Feb/2020 22:24:57] "GET /static/img/home_global.png HTTP/1.1" 304 0
-[10/Feb/2020 22:24:57] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:25:01] "GET / HTTP/1.1" 200 7702
-[10/Feb/2020 22:25:01] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:25:01] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:25:34] "GET / HTTP/1.1" 200 8375
-[10/Feb/2020 22:25:34] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:25:34] "GET /static/Highcharts-6.0.2/code/highcharts-more.js HTTP/1.1" 200 31372
-[10/Feb/2020 22:25:34] "GET /static/Highcharts-6.0.2/code/highcharts-3d.js HTTP/1.1" 200 37149
-[10/Feb/2020 22:25:34] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:25:34] "GET /static/Highcharts-6.0.2/code/modules/exporting.js HTTP/1.1" 200 9390
-[10/Feb/2020 22:25:34] "GET /static/Highcharts-6.0.2/code/highcharts.js HTTP/1.1" 200 192891
-[10/Feb/2020 22:25:34] "GET /static/Highcharts-6.0.2/code/highcharts-more.src.js HTTP/1.1" 200 196443
-[10/Feb/2020 22:25:34] "GET /static/Highcharts-6.0.2/code/highcharts-3d.src.js HTTP/1.1" 200 165983
-[10/Feb/2020 22:25:34] "GET /static/Highcharts-6.0.2/code/highcharts.src.js HTTP/1.1" 200 1339332
-[10/Feb/2020 22:26:07] "GET / HTTP/1.1" 200 8376
-[10/Feb/2020 22:26:07] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:26:07] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:26:37] "GET / HTTP/1.1" 200 8377
-[10/Feb/2020 22:26:37] "GET /static/img/hero.png HTTP/1.1" 304 0
-[10/Feb/2020 22:26:37] "GET /static/img/down-arrow.svg HTTP/1.1" 304 0
-[10/Feb/2020 22:26:37] "GET /static/js/scripts.js HTTP/1.1" 304 0
-[10/Feb/2020 22:26:37] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:26:37] "GET /static/css/style.css HTTP/1.1" 304 0
-[10/Feb/2020 22:26:37] "GET /static/img/home_medal.png HTTP/1.1" 304 0
-[10/Feb/2020 22:26:37] "GET /static/img/home_global.png HTTP/1.1" 304 0
-[10/Feb/2020 22:26:37] "GET /static/img/home_integrated.png HTTP/1.1" 304 0
-[10/Feb/2020 22:26:37] "GET /static/img/right-arrow.svg HTTP/1.1" 304 0
-[10/Feb/2020 22:26:37] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:27:33] "GET / HTTP/1.1" 200 8376
-[10/Feb/2020 22:27:33] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:27:33] "GET /static/Highcharts-6.0.2/code/highcharts.js HTTP/1.1" 304 0
-[10/Feb/2020 22:27:33] "GET /static/Highcharts-6.0.2/code/highcharts-3d.js HTTP/1.1" 304 0
-[10/Feb/2020 22:27:33] "GET /static/Highcharts-6.0.2/code/highcharts.src.js HTTP/1.1" 304 0
-[10/Feb/2020 22:27:33] "GET /static/Highcharts-6.0.2/code/highcharts-more.js HTTP/1.1" 304 0
-[10/Feb/2020 22:27:33] "GET /static/Highcharts-6.0.2/code/highcharts-3d.src.js HTTP/1.1" 304 0
-[10/Feb/2020 22:27:33] "GET /static/Highcharts-6.0.2/code/modules/exporting.js HTTP/1.1" 304 0
-[10/Feb/2020 22:27:33] "GET /static/Highcharts-6.0.2/code/highcharts-more.src.js HTTP/1.1" 304 0
-[10/Feb/2020 22:27:33] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:27:53] "GET / HTTP/1.1" 200 8370
-[10/Feb/2020 22:27:53] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
-[10/Feb/2020 22:27:53] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:27:53] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:31:04] "GET / HTTP/1.1" 200 9092
-[10/Feb/2020 22:31:04] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
-[10/Feb/2020 22:31:04] "GET /static/js/scripts.js HTTP/1.1" 304 0
-[10/Feb/2020 22:31:04] "GET /static/img/down-arrow.svg HTTP/1.1" 304 0
-[10/Feb/2020 22:31:04] "GET /static/img/hero.png HTTP/1.1" 304 0
-[10/Feb/2020 22:31:04] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:31:04] "GET /static/css/style.css HTTP/1.1" 304 0
-[10/Feb/2020 22:31:04] "GET /static/Highcharts-6.0.2/code/highcharts.js HTTP/1.1" 304 0
-[10/Feb/2020 22:31:04] "GET /static/Highcharts-6.0.2/code/highcharts-3d.js HTTP/1.1" 304 0
-[10/Feb/2020 22:31:04] "GET /static/Highcharts-6.0.2/code/highcharts-more.js HTTP/1.1" 304 0
-[10/Feb/2020 22:31:04] "GET /static/Highcharts-6.0.2/code/highcharts.src.js HTTP/1.1" 304 0
-[10/Feb/2020 22:31:04] "GET /static/Highcharts-6.0.2/code/highcharts-3d.src.js HTTP/1.1" 304 0
-[10/Feb/2020 22:31:04] "GET /static/Highcharts-6.0.2/code/highcharts-more.src.js HTTP/1.1" 304 0
-[10/Feb/2020 22:31:04] "GET /static/Highcharts-6.0.2/code/modules/exporting.js HTTP/1.1" 304 0
-[10/Feb/2020 22:31:04] "GET /static/img/home_medal.png HTTP/1.1" 304 0
-[10/Feb/2020 22:31:04] "GET /static/img/right-arrow.svg HTTP/1.1" 304 0
-[10/Feb/2020 22:31:04] "GET /static/img/home_global.png HTTP/1.1" 304 0
-[10/Feb/2020 22:31:04] "GET /static/img/home_integrated.png HTTP/1.1" 304 0
-[10/Feb/2020 22:31:04] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:31:27] "GET / HTTP/1.1" 200 9162
-[10/Feb/2020 22:31:27] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:31:27] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:31:31] "GET / HTTP/1.1" 200 9162
-[10/Feb/2020 22:31:31] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:31:31] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:35:55] "GET / HTTP/1.1" 200 9119
-[10/Feb/2020 22:35:55] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
-[10/Feb/2020 22:35:55] "GET /static/js/scripts.js HTTP/1.1" 304 0
-[10/Feb/2020 22:35:55] "GET /static/img/down-arrow.svg HTTP/1.1" 304 0
-[10/Feb/2020 22:35:55] "GET /static/img/hero.png HTTP/1.1" 304 0
-[10/Feb/2020 22:35:55] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:35:55] "GET /static/Highcharts-6.0.2/code/highcharts.src.js HTTP/1.1" 304 0
-[10/Feb/2020 22:35:55] "GET /static/Highcharts-6.0.2/code/highcharts.js HTTP/1.1" 304 0
-[10/Feb/2020 22:35:55] "GET /static/css/style.css HTTP/1.1" 304 0
-[10/Feb/2020 22:35:55] "GET /static/Highcharts-6.0.2/code/highcharts-3d.js HTTP/1.1" 304 0
-[10/Feb/2020 22:35:55] "GET /static/Highcharts-6.0.2/code/highcharts-more.js HTTP/1.1" 304 0
-[10/Feb/2020 22:35:55] "GET /static/Highcharts-6.0.2/code/highcharts-3d.src.js HTTP/1.1" 304 0
-[10/Feb/2020 22:35:55] "GET /static/Highcharts-6.0.2/code/modules/exporting.js HTTP/1.1" 304 0
-[10/Feb/2020 22:35:55] "GET /static/img/home_medal.png HTTP/1.1" 304 0
-[10/Feb/2020 22:35:55] "GET /static/Highcharts-6.0.2/code/highcharts-more.src.js HTTP/1.1" 304 0
-[10/Feb/2020 22:35:55] "GET /static/img/home_global.png HTTP/1.1" 304 0
-[10/Feb/2020 22:35:55] "GET /static/img/home_integrated.png HTTP/1.1" 304 0
-[10/Feb/2020 22:35:55] "GET /static/img/right-arrow.svg HTTP/1.1" 304 0
-[10/Feb/2020 22:35:55] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:36:30] "GET / HTTP/1.1" 200 9131
-[10/Feb/2020 22:36:30] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:36:30] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:36:44] "GET / HTTP/1.1" 200 9131
-[10/Feb/2020 22:36:45] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:39:19] "GET / HTTP/1.1" 200 9237
-[10/Feb/2020 22:39:20] "GET /static/js/scripts.js HTTP/1.1" 304 0
-[10/Feb/2020 22:39:20] "GET /static/img/hero.png HTTP/1.1" 304 0
-[10/Feb/2020 22:39:20] "GET /static/img/down-arrow.svg HTTP/1.1" 304 0
-[10/Feb/2020 22:39:20] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:39:20] "GET /static/css/style.css HTTP/1.1" 304 0
-[10/Feb/2020 22:39:20] "GET /static/Highcharts-6.0.2/code/highcharts.js HTTP/1.1" 304 0
-[10/Feb/2020 22:39:20] "GET /static/Highcharts-6.0.2/code/highcharts.src.js HTTP/1.1" 304 0
-[10/Feb/2020 22:39:20] "GET /static/Highcharts-6.0.2/code/highcharts-3d.js HTTP/1.1" 304 0
-[10/Feb/2020 22:39:20] "GET /static/Highcharts-6.0.2/code/highcharts-more.js HTTP/1.1" 304 0
-[10/Feb/2020 22:39:20] "GET /static/Highcharts-6.0.2/code/highcharts-3d.src.js HTTP/1.1" 304 0
-[10/Feb/2020 22:39:20] "GET /static/Highcharts-6.0.2/code/modules/exporting.js HTTP/1.1" 304 0
-[10/Feb/2020 22:39:20] "GET /static/img/home_medal.png HTTP/1.1" 304 0
-[10/Feb/2020 22:39:20] "GET /static/Highcharts-6.0.2/code/highcharts-more.src.js HTTP/1.1" 304 0
-[10/Feb/2020 22:39:20] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:39:20] "GET /static/img/right-arrow.svg HTTP/1.1" 304 0
-[10/Feb/2020 22:39:20] "GET /static/img/home_global.png HTTP/1.1" 304 0
-[10/Feb/2020 22:39:20] "GET /static/img/home_integrated.png HTTP/1.1" 304 0
-[10/Feb/2020 22:39:25] "GET / HTTP/1.1" 200 9237
-[10/Feb/2020 22:39:25] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:39:25] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:39:45] "GET / HTTP/1.1" 200 9240
-[10/Feb/2020 22:39:45] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:39:45] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:40:24] "GET / HTTP/1.1" 200 9238
-[10/Feb/2020 22:40:24] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
-[10/Feb/2020 22:40:24] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:40:24] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:41:14] "GET / HTTP/1.1" 200 9241
-[10/Feb/2020 22:41:14] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:41:14] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:41:29] "GET / HTTP/1.1" 200 8443
-[10/Feb/2020 22:41:29] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:41:29] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:41:51] "GET / HTTP/1.1" 200 8441
-[10/Feb/2020 22:41:51] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:41:51] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:42:04] "GET / HTTP/1.1" 200 8447
-[10/Feb/2020 22:42:05] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:42:05] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:44:02] "GET / HTTP/1.1" 200 9389
-[10/Feb/2020 22:44:02] "GET /static/js/scripts.js HTTP/1.1" 304 0
-[10/Feb/2020 22:44:02] "GET /static/img/down-arrow.svg HTTP/1.1" 304 0
-[10/Feb/2020 22:44:02] "GET /static/img/hero.png HTTP/1.1" 304 0
-[10/Feb/2020 22:44:02] "GET /static/css/style.css HTTP/1.1" 304 0
-[10/Feb/2020 22:44:02] "GET /static/Highcharts-6.0.2/code/highcharts.js HTTP/1.1" 304 0
-[10/Feb/2020 22:44:02] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:44:02] "GET /static/Highcharts-6.0.2/code/highcharts.src.js HTTP/1.1" 304 0
-[10/Feb/2020 22:44:02] "GET /static/Highcharts-6.0.2/code/highcharts-3d.js HTTP/1.1" 304 0
-[10/Feb/2020 22:44:02] "GET /static/Highcharts-6.0.2/code/highcharts-more.js HTTP/1.1" 304 0
-[10/Feb/2020 22:44:02] "GET /static/Highcharts-6.0.2/code/modules/exporting.js HTTP/1.1" 304 0
-[10/Feb/2020 22:44:02] "GET /static/Highcharts-6.0.2/code/highcharts-3d.src.js HTTP/1.1" 304 0
-[10/Feb/2020 22:44:02] "GET /static/Highcharts-6.0.2/code/highcharts-more.src.js HTTP/1.1" 304 0
-[10/Feb/2020 22:44:02] "GET /static/img/home_global.png HTTP/1.1" 304 0
-[10/Feb/2020 22:44:02] "GET /static/img/home_integrated.png HTTP/1.1" 304 0
-[10/Feb/2020 22:44:02] "GET /static/img/right-arrow.svg HTTP/1.1" 304 0
-[10/Feb/2020 22:44:02] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:47:49] "GET / HTTP/1.1" 200 9389
-[10/Feb/2020 22:47:49] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
-[10/Feb/2020 22:47:49] "GET /static/js/scripts.js HTTP/1.1" 304 0
-[10/Feb/2020 22:47:49] "GET /static/img/down-arrow.svg HTTP/1.1" 304 0
-[10/Feb/2020 22:47:49] "GET /static/img/hero.png HTTP/1.1" 304 0
-[10/Feb/2020 22:47:49] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:47:49] "GET /static/css/style.css HTTP/1.1" 304 0
-[10/Feb/2020 22:47:49] "GET /static/Highcharts-6.0.2/code/highcharts.js HTTP/1.1" 304 0
-[10/Feb/2020 22:47:49] "GET /static/Highcharts-6.0.2/code/highcharts.src.js HTTP/1.1" 304 0
-[10/Feb/2020 22:47:49] "GET /static/Highcharts-6.0.2/code/highcharts-3d.js HTTP/1.1" 304 0
-[10/Feb/2020 22:47:49] "GET /static/Highcharts-6.0.2/code/highcharts-more.js HTTP/1.1" 304 0
-[10/Feb/2020 22:47:49] "GET /static/Highcharts-6.0.2/code/highcharts-3d.src.js HTTP/1.1" 304 0
-[10/Feb/2020 22:47:49] "GET /static/Highcharts-6.0.2/code/modules/exporting.js HTTP/1.1" 304 0
-[10/Feb/2020 22:47:49] "GET /static/Highcharts-6.0.2/code/highcharts-more.src.js HTTP/1.1" 304 0
-[10/Feb/2020 22:47:49] "GET /static/img/home_global.png HTTP/1.1" 304 0
-[10/Feb/2020 22:47:49] "GET /static/img/home_integrated.png HTTP/1.1" 304 0
-[10/Feb/2020 22:47:49] "GET /static/img/right-arrow.svg HTTP/1.1" 304 0
-[10/Feb/2020 22:47:49] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:48:08] "GET / HTTP/1.1" 200 9385
-[10/Feb/2020 22:48:08] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:48:08] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:48:19] "GET / HTTP/1.1" 200 9386
-[10/Feb/2020 22:48:19] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:48:29] "GET / HTTP/1.1" 200 9383
-[10/Feb/2020 22:48:29] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:48:29] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:48:40] "GET / HTTP/1.1" 200 9385
-[10/Feb/2020 22:48:40] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:48:40] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:52:26] "GET / HTTP/1.1" 200 10295
-[10/Feb/2020 22:52:26] "GET /static/js/scripts.js HTTP/1.1" 304 0
-[10/Feb/2020 22:52:26] "GET /static/img/down-arrow.svg HTTP/1.1" 304 0
-[10/Feb/2020 22:52:26] "GET /static/img/hero.png HTTP/1.1" 304 0
-[10/Feb/2020 22:52:26] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:52:26] "GET /static/css/style.css HTTP/1.1" 304 0
-[10/Feb/2020 22:52:26] "GET /static/Highcharts-6.0.2/code/highcharts.js HTTP/1.1" 304 0
-[10/Feb/2020 22:52:26] "GET /static/Highcharts-6.0.2/code/highcharts.src.js HTTP/1.1" 304 0
-[10/Feb/2020 22:52:26] "GET /static/Highcharts-6.0.2/code/highcharts-3d.js HTTP/1.1" 304 0
-[10/Feb/2020 22:52:26] "GET /static/Highcharts-6.0.2/code/highcharts-more.js HTTP/1.1" 304 0
-[10/Feb/2020 22:52:26] "GET /static/Highcharts-6.0.2/code/highcharts-3d.src.js HTTP/1.1" 304 0
-[10/Feb/2020 22:52:26] "GET /static/Highcharts-6.0.2/code/modules/exporting.js HTTP/1.1" 304 0
-[10/Feb/2020 22:52:26] "GET /static/Highcharts-6.0.2/code/highcharts-more.src.js HTTP/1.1" 304 0
-[10/Feb/2020 22:52:26] "GET /static/img/home_global.png HTTP/1.1" 304 0
-[10/Feb/2020 22:52:26] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:52:26] "GET /static/img/home_integrated.png HTTP/1.1" 304 0
-[10/Feb/2020 22:52:26] "GET /static/img/right-arrow.svg HTTP/1.1" 304 0
-[10/Feb/2020 22:52:47] "GET / HTTP/1.1" 200 10367
-[10/Feb/2020 22:52:47] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:52:47] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:56:38] "GET / HTTP/1.1" 200 10907
-[10/Feb/2020 22:56:39] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
-[10/Feb/2020 22:56:39] "GET /static/img/down-arrow.svg HTTP/1.1" 304 0
-[10/Feb/2020 22:56:39] "GET /static/img/hero.png HTTP/1.1" 304 0
-[10/Feb/2020 22:56:39] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:56:39] "GET /static/Highcharts-6.0.2/code/highcharts.js HTTP/1.1" 304 0
-[10/Feb/2020 22:56:39] "GET /static/Highcharts-6.0.2/code/highcharts.src.js HTTP/1.1" 304 0
-[10/Feb/2020 22:56:39] "GET /static/Highcharts-6.0.2/code/highcharts-more.js HTTP/1.1" 304 0
-[10/Feb/2020 22:56:39] "GET /static/Highcharts-6.0.2/code/highcharts-3d.js HTTP/1.1" 304 0
-[10/Feb/2020 22:56:39] "GET /static/Highcharts-6.0.2/code/highcharts-3d.src.js HTTP/1.1" 304 0
-[10/Feb/2020 22:56:39] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:56:39] "GET /static/Highcharts-6.0.2/code/modules/exporting.js HTTP/1.1" 304 0
-[10/Feb/2020 22:56:39] "GET /static/Highcharts-6.0.2/code/highcharts-more.src.js HTTP/1.1" 304 0
-[10/Feb/2020 22:56:39] "GET /static/img/home_global.png HTTP/1.1" 304 0
-[10/Feb/2020 22:56:39] "GET /static/img/home_integrated.png HTTP/1.1" 304 0
-[10/Feb/2020 22:56:39] "GET /static/img/right-arrow.svg HTTP/1.1" 304 0
-[10/Feb/2020 22:58:29] "GET / HTTP/1.1" 200 10895
-[10/Feb/2020 22:58:29] "GET /static/js/scripts.js HTTP/1.1" 304 0
-[10/Feb/2020 22:58:29] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:58:29] "GET /static/css/style.css HTTP/1.1" 304 0
-[10/Feb/2020 22:58:29] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:59:03] "GET / HTTP/1.1" 200 10901
-[10/Feb/2020 22:59:03] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:59:20] "GET / HTTP/1.1" 200 10901
-[10/Feb/2020 22:59:20] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:59:20] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:59:30] "GET / HTTP/1.1" 200 10900
-[10/Feb/2020 22:59:30] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:59:30] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:59:37] "GET / HTTP/1.1" 200 10899
-[10/Feb/2020 22:59:37] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:59:37] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:59:44] "GET / HTTP/1.1" 200 10900
-[10/Feb/2020 22:59:44] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:59:44] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:59:56] "GET / HTTP/1.1" 200 10899
-[10/Feb/2020 22:59:56] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 22:59:56] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 23:00:04] "GET / HTTP/1.1" 200 10899
-[10/Feb/2020 23:00:04] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 23:01:20] "GET / HTTP/1.1" 200 10898
-[10/Feb/2020 23:01:20] "GET /static/img/down-arrow.svg HTTP/1.1" 304 0
-[10/Feb/2020 23:01:20] "GET /static/img/hero.png HTTP/1.1" 304 0
-[10/Feb/2020 23:01:20] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 23:01:20] "GET /static/Highcharts-6.0.2/code/highcharts.js HTTP/1.1" 304 0
-[10/Feb/2020 23:01:20] "GET /static/Highcharts-6.0.2/code/highcharts.src.js HTTP/1.1" 304 0
-[10/Feb/2020 23:01:20] "GET /static/Highcharts-6.0.2/code/highcharts-3d.js HTTP/1.1" 304 0
-[10/Feb/2020 23:01:20] "GET /static/Highcharts-6.0.2/code/highcharts-more.js HTTP/1.1" 304 0
-[10/Feb/2020 23:01:20] "GET /static/Highcharts-6.0.2/code/modules/exporting.js HTTP/1.1" 304 0
-[10/Feb/2020 23:01:20] "GET /static/Highcharts-6.0.2/code/highcharts-3d.src.js HTTP/1.1" 304 0
-[10/Feb/2020 23:01:20] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 23:01:20] "GET /static/Highcharts-6.0.2/code/highcharts-more.src.js HTTP/1.1" 304 0
-[10/Feb/2020 23:01:20] "GET /static/img/right-arrow.svg HTTP/1.1" 304 0
-[10/Feb/2020 23:01:20] "GET /static/img/home_global.png HTTP/1.1" 304 0
-[10/Feb/2020 23:01:20] "GET /static/img/home_integrated.png HTTP/1.1" 304 0
-[10/Feb/2020 23:01:45] "GET / HTTP/1.1" 200 10897
-[10/Feb/2020 23:01:45] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 23:01:45] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 23:05:46] "GET / HTTP/1.1" 200 11961
-[10/Feb/2020 23:05:46] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
-[10/Feb/2020 23:05:46] "GET /static/js/scripts.js HTTP/1.1" 304 0
-[10/Feb/2020 23:05:46] "GET /static/css/style.css HTTP/1.1" 304 0
-[10/Feb/2020 23:05:46] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 23:05:46] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 23:07:18] "GET / HTTP/1.1" 200 13952
-[10/Feb/2020 23:07:18] "GET /static/img/down-arrow.svg HTTP/1.1" 304 0
-[10/Feb/2020 23:07:18] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 23:07:18] "GET /static/img/hero.png HTTP/1.1" 304 0
-[10/Feb/2020 23:07:18] "GET /static/Highcharts-6.0.2/code/highcharts.src.js HTTP/1.1" 304 0
-[10/Feb/2020 23:07:18] "GET /static/Highcharts-6.0.2/code/highcharts.js HTTP/1.1" 304 0
-[10/Feb/2020 23:07:18] "GET /static/Highcharts-6.0.2/code/highcharts-3d.js HTTP/1.1" 304 0
-[10/Feb/2020 23:07:18] "GET /static/Highcharts-6.0.2/code/highcharts-more.js HTTP/1.1" 304 0
-[10/Feb/2020 23:07:18] "GET /static/Highcharts-6.0.2/code/highcharts-3d.src.js HTTP/1.1" 304 0
-[10/Feb/2020 23:07:18] "GET /static/Highcharts-6.0.2/code/modules/exporting.js HTTP/1.1" 304 0
-[10/Feb/2020 23:07:18] "GET /static/Highcharts-6.0.2/code/highcharts-more.src.js HTTP/1.1" 304 0
-[10/Feb/2020 23:07:18] "GET /static/img/home_integrated.png HTTP/1.1" 304 0
-[10/Feb/2020 23:07:18] "GET /static/img/home_global.png HTTP/1.1" 304 0
-[10/Feb/2020 23:07:18] "GET /static/img/right-arrow.svg HTTP/1.1" 304 0
-[10/Feb/2020 23:07:19] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 23:08:50] "GET / HTTP/1.1" 200 14023
-[10/Feb/2020 23:08:50] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 23:08:50] "GET /static/js/wordcloud.js HTTP/1.1" 404 1658
-[10/Feb/2020 23:08:50] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 23:08:50] "GET /static/js/wordcloud.js HTTP/1.1" 404 1658
-[10/Feb/2020 23:09:54] "GET / HTTP/1.1" 200 13423
-[10/Feb/2020 23:09:54] "GET /static/js/wordcloud.js HTTP/1.1" 404 1658
-[10/Feb/2020 23:09:54] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 23:09:54] "GET /static/js/wordcloud.js HTTP/1.1" 404 1658
-[10/Feb/2020 23:11:41] "GET / HTTP/1.1" 200 13318
-[10/Feb/2020 23:11:41] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 23:11:41] "GET /static/js/scripts.js HTTP/1.1" 304 0
-[10/Feb/2020 23:11:41] "GET /static/css/style.css HTTP/1.1" 304 0
-[10/Feb/2020 23:11:41] "GET /static/js/wordcloud.js HTTP/1.1" 404 1658
-[10/Feb/2020 23:11:41] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 23:11:41] "GET /static/js/wordcloud.js HTTP/1.1" 404 1658
-[10/Feb/2020 23:12:11] "GET / HTTP/1.1" 200 13440
-[10/Feb/2020 23:12:11] "GET /static/js/wordcloud.js HTTP/1.1" 404 1658
-[10/Feb/2020 23:12:11] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 23:12:11] "GET /static/js/wordcloud.js HTTP/1.1" 404 1658
-[10/Feb/2020 23:14:14] "GET / HTTP/1.1" 200 13442
-[10/Feb/2020 23:14:14] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
-[10/Feb/2020 23:14:14] "GET /static/img/down-arrow.svg HTTP/1.1" 304 0
-[10/Feb/2020 23:14:14] "GET /static/img/hero.png HTTP/1.1" 304 0
-[10/Feb/2020 23:14:14] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 23:14:14] "GET /static/Highcharts-6.0.2/code/highcharts.js HTTP/1.1" 304 0
-[10/Feb/2020 23:14:14] "GET /static/Highcharts-6.0.2/code/highcharts-3d.js HTTP/1.1" 304 0
-[10/Feb/2020 23:14:14] "GET /static/Highcharts-6.0.2/code/highcharts.src.js HTTP/1.1" 304 0
-[10/Feb/2020 23:14:14] "GET /static/Highcharts-6.0.2/code/highcharts-more.js HTTP/1.1" 304 0
-[10/Feb/2020 23:14:14] "GET /static/Highcharts-6.0.2/code/highcharts-3d.src.js HTTP/1.1" 304 0
-[10/Feb/2020 23:14:14] "GET /static/Highcharts-6.0.2/code/modules/exporting.js HTTP/1.1" 304 0
-[10/Feb/2020 23:14:14] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 23:14:14] "GET /static/Highcharts-6.0.2/code/highcharts-more.src.js HTTP/1.1" 304 0
-[10/Feb/2020 23:14:14] "GET /static/js/wordcloud.js HTTP/1.1" 404 1658
-[10/Feb/2020 23:14:14] "GET /static/img/home_integrated.png HTTP/1.1" 304 0
-[10/Feb/2020 23:14:14] "GET /static/img/home_global.png HTTP/1.1" 304 0
-[10/Feb/2020 23:14:14] "GET /static/img/right-arrow.svg HTTP/1.1" 304 0
-[10/Feb/2020 23:15:16] "GET / HTTP/1.1" 200 13321
-[10/Feb/2020 23:15:16] "GET /static/js/wordcloud.js HTTP/1.1" 404 1658
-[10/Feb/2020 23:15:16] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 23:15:16] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 404 1679
-[10/Feb/2020 23:15:16] "GET /static/js/wordcloud.js HTTP/1.1" 404 1658
-[10/Feb/2020 23:17:10] "GET / HTTP/1.1" 200 13321
-[10/Feb/2020 23:17:10] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 200 84345
-[10/Feb/2020 23:17:10] "GET /static/js/wordcloud.js HTTP/1.1" 200 4787
-[10/Feb/2020 23:17:23] "GET / HTTP/1.1" 200 13321
-[10/Feb/2020 23:17:23] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 304 0
-[10/Feb/2020 23:17:23] "GET /static/js/wordcloud.js HTTP/1.1" 304 0
-[10/Feb/2020 23:18:15] "GET / HTTP/1.1" 200 13442
-[10/Feb/2020 23:18:15] "GET /static/js/scripts.js HTTP/1.1" 304 0
-[10/Feb/2020 23:18:15] "GET /static/css/style.css HTTP/1.1" 304 0
-[10/Feb/2020 23:18:15] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 304 0
-[10/Feb/2020 23:18:15] "GET /static/js/wordcloud.js HTTP/1.1" 304 0
-[10/Feb/2020 23:20:00] "GET / HTTP/1.1" 200 12672
-[10/Feb/2020 23:20:00] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 304 0
-[10/Feb/2020 23:20:00] "GET /static/js/wordcloud.js HTTP/1.1" 304 0
-[10/Feb/2020 23:20:21] "GET / HTTP/1.1" 200 12670
-[10/Feb/2020 23:20:21] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 304 0
-[10/Feb/2020 23:20:21] "GET /static/js/wordcloud.js HTTP/1.1" 304 0
-[10/Feb/2020 23:21:30] "GET / HTTP/1.1" 200 12693
-[10/Feb/2020 23:21:30] "GET /static/img/hero.png HTTP/1.1" 304 0
-[10/Feb/2020 23:21:30] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 304 0
-[10/Feb/2020 23:21:30] "GET /static/Highcharts-6.0.2/code/highcharts.js HTTP/1.1" 304 0
-[10/Feb/2020 23:21:30] "GET /static/Highcharts-6.0.2/code/highcharts.src.js HTTP/1.1" 304 0
-[10/Feb/2020 23:21:30] "GET /static/img/down-arrow.svg HTTP/1.1" 304 0
-[10/Feb/2020 23:21:30] "GET /static/Highcharts-6.0.2/code/highcharts-more.js HTTP/1.1" 304 0
-[10/Feb/2020 23:21:30] "GET /static/Highcharts-6.0.2/code/highcharts-3d.js HTTP/1.1" 304 0
-[10/Feb/2020 23:21:30] "GET /static/js/wordcloud.js HTTP/1.1" 304 0
-[10/Feb/2020 23:21:30] "GET /static/Highcharts-6.0.2/code/modules/exporting.js HTTP/1.1" 304 0
-[10/Feb/2020 23:21:30] "GET /static/Highcharts-6.0.2/code/highcharts-3d.src.js HTTP/1.1" 304 0
-[10/Feb/2020 23:21:30] "GET /static/Highcharts-6.0.2/code/highcharts-more.src.js HTTP/1.1" 304 0
-[10/Feb/2020 23:21:30] "GET /static/img/home_global.png HTTP/1.1" 304 0
-[10/Feb/2020 23:21:30] "GET /static/img/home_integrated.png HTTP/1.1" 304 0
-[10/Feb/2020 23:21:30] "GET /static/img/right-arrow.svg HTTP/1.1" 304 0
-[10/Feb/2020 23:21:47] "GET / HTTP/1.1" 200 12695
-[10/Feb/2020 23:24:31] "GET / HTTP/1.1" 200 12699
-[10/Feb/2020 23:24:31] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
-[10/Feb/2020 23:24:31] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 304 0
-[10/Feb/2020 23:24:31] "GET /static/js/wordcloud.js HTTP/1.1" 304 0
-[10/Feb/2020 23:24:48] "GET / HTTP/1.1" 200 12684
-[10/Feb/2020 23:25:06] "GET / HTTP/1.1" 200 12684
-[10/Feb/2020 23:25:06] "GET /static/css/style.css HTTP/1.1" 304 0
-[10/Feb/2020 23:25:17] "GET / HTTP/1.1" 200 12687
-[10/Feb/2020 23:25:17] "GET /static/js/scripts.js HTTP/1.1" 304 0
-[10/Feb/2020 23:25:17] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 304 0
-[10/Feb/2020 23:25:25] "GET / HTTP/1.1" 200 12690
-[10/Feb/2020 23:25:25] "GET /static/js/wordcloud.js HTTP/1.1" 304 0
-[10/Feb/2020 23:25:58] "GET / HTTP/1.1" 200 12695
-[10/Feb/2020 23:26:53] "GET / HTTP/1.1" 200 12731
-[10/Feb/2020 23:26:53] "GET /static/js/wordcloud.js HTTP/1.1" 304 0
-[10/Feb/2020 23:26:53] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 304 0
-[10/Feb/2020 23:28:44] "GET / HTTP/1.1" 200 12913
-[10/Feb/2020 23:28:44] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 304 0
-[10/Feb/2020 23:28:44] "GET /static/img/down-arrow.svg HTTP/1.1" 304 0
-[10/Feb/2020 23:28:44] "GET /static/Highcharts-6.0.2/code/highcharts.js HTTP/1.1" 304 0
-[10/Feb/2020 23:28:44] "GET /static/img/hero.png HTTP/1.1" 304 0
-[10/Feb/2020 23:28:44] "GET /static/Highcharts-6.0.2/code/highcharts-more.js HTTP/1.1" 304 0
-[10/Feb/2020 23:28:44] "GET /static/Highcharts-6.0.2/code/highcharts-3d.js HTTP/1.1" 304 0
-[10/Feb/2020 23:28:44] "GET /static/Highcharts-6.0.2/code/highcharts-3d.src.js HTTP/1.1" 304 0
-[10/Feb/2020 23:28:44] "GET /static/Highcharts-6.0.2/code/highcharts.src.js HTTP/1.1" 304 0
-[10/Feb/2020 23:28:44] "GET /static/Highcharts-6.0.2/code/modules/exporting.js HTTP/1.1" 304 0
-[10/Feb/2020 23:28:44] "GET /static/Highcharts-6.0.2/code/highcharts-more.src.js HTTP/1.1" 304 0
-[10/Feb/2020 23:28:44] "GET /static/img/home_global.png HTTP/1.1" 304 0
-[10/Feb/2020 23:28:44] "GET /static/js/wordcloud.js HTTP/1.1" 304 0
-[10/Feb/2020 23:28:44] "GET /static/img/right-arrow.svg HTTP/1.1" 304 0
-[10/Feb/2020 23:28:44] "GET /static/img/home_integrated.png HTTP/1.1" 304 0
-[10/Feb/2020 23:28:47] "GET / HTTP/1.1" 200 12913
-[10/Feb/2020 23:28:57] "GET / HTTP/1.1" 200 12912
-[10/Feb/2020 23:29:18] "GET / HTTP/1.1" 200 12787
-[10/Feb/2020 23:29:28] "GET / HTTP/1.1" 200 12733
-[10/Feb/2020 23:29:37] "GET / HTTP/1.1" 200 12733
-[10/Feb/2020 23:29:40] "GET / HTTP/1.1" 200 12733
-[10/Feb/2020 23:30:19] "GET / HTTP/1.1" 200 12732
-[10/Feb/2020 23:30:19] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 304 0
-[10/Feb/2020 23:30:19] "GET /static/js/wordcloud.js HTTP/1.1" 304 0
-[10/Feb/2020 23:30:28] "GET / HTTP/1.1" 200 12732
-Not Found: /model
-[10/Feb/2020 23:30:33] "GET /model?db_type=&eff_flag= HTTP/1.1" 404 2206
-[10/Feb/2020 23:31:10] "GET / HTTP/1.1" 200 12733
-[10/Feb/2020 23:32:26] "GET / HTTP/1.1" 200 12909
-[10/Feb/2020 23:32:26] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 304 0
-[10/Feb/2020 23:32:26] "GET /static/js/wordcloud.js HTTP/1.1" 304 0
-[10/Feb/2020 23:33:13] "GET / HTTP/1.1" 200 12909
-[10/Feb/2020 23:33:13] "GET /static/css/style.css HTTP/1.1" 304 0
-[10/Feb/2020 23:33:13] "GET /static/js/scripts.js HTTP/1.1" 304 0
-[10/Feb/2020 23:33:28] "GET / HTTP/1.1" 200 12909
-[10/Feb/2020 23:33:28] "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
-[10/Feb/2020 23:33:39] "GET / HTTP/1.1" 200 12909
-[10/Feb/2020 23:34:07] "GET / HTTP/1.1" 200 12909
-[10/Feb/2020 23:34:07] "GET /static/js/jquery-2.1.4.min.js HTTP/1.1" 304 0
-[10/Feb/2020 23:34:07] "GET /static/js/wordcloud.js HTTP/1.1" 304 0
+[18/Feb/2020 17:51:02] "GET /searchtableresult/?keyword= HTTP/1.1" 404 2483
+[18/Feb/2020 17:51:05] "GET /model/?db_type=&eff_flag= HTTP/1.1" 200 17757
+[18/Feb/2020 17:51:05] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:51:05] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:51:05] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:51:05] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:51:05] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:51:05] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:51:05] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:51:05] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:51:05] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:51:05] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:51:07] "GET /table/db%3D1/ HTTP/1.1" 200 14520
+[18/Feb/2020 17:51:07] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:51:07] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:51:07] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:51:07] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:51:07] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:51:07] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:51:07] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:51:07] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:51:07] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:51:07] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:53:37] "GET /table/db%3D1/ HTTP/1.1" 200 14520
+[18/Feb/2020 17:53:37] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:53:37] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:53:37] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:53:37] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:53:37] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:53:37] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:53:37] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:53:37] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:53:38] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:53:38] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+Not Found: /fields/tb_id=1
+[18/Feb/2020 17:53:40] "GET /fields/tb_id=1 HTTP/1.1" 404 2464
+Not Found: /admin/integ_model/table/add/
+[18/Feb/2020 17:54:38] "GET /admin/integ_model/table/add/ HTTP/1.1" 404 5484
+[18/Feb/2020 17:54:54] "GET /table/db%3D1/ HTTP/1.1" 200 14513
+[18/Feb/2020 17:54:54] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:54:54] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:54:55] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:54:55] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:54:55] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:54:55] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:54:55] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:54:55] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:54:55] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:54:55] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:54:56] "GET /admin/modelApp/table/add/ HTTP/1.1" 200 21323
+[18/Feb/2020 17:54:56] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[18/Feb/2020 17:55:06] "GET /admin/modelApp/table/add/ HTTP/1.1" 200 21323
+[18/Feb/2020 17:55:06] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+Not Found: /fields/tb_id=1
+[18/Feb/2020 17:55:12] "GET /fields/tb_id=1 HTTP/1.1" 404 2464
+[18/Feb/2020 17:57:11] "GET /table/db%3D1/ HTTP/1.1" 200 14614
+[18/Feb/2020 17:57:11] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:57:11] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:57:11] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:57:11] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:57:11] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 17:57:11] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 17:57:11] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 17:57:11] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:57:11] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 17:57:11] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 18:00:28] "GET /table/db%3D1/ HTTP/1.1" 200 16169
+[18/Feb/2020 18:00:28] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 18:00:28] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 18:00:28] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 18:00:28] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 18:00:28] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 18:00:28] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 18:00:28] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 18:00:28] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 18:00:28] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 18:00:28] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 18:00:52] "GET /table/db%3D1/ HTTP/1.1" 200 16171
+[18/Feb/2020 18:00:52] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 18:00:52] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 18:00:52] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 18:00:52] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 18:00:52] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 18:00:52] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 18:00:52] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 18:00:52] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 18:00:52] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 18:00:52] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 18:01:50] "GET /table/db%3D1/ HTTP/1.1" 200 16168
+[18/Feb/2020 18:01:51] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 18:01:51] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 18:01:51] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 18:01:51] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 18:01:51] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 18:01:51] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 18:01:51] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 18:01:51] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 18:01:51] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 18:01:51] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 18:02:08] "GET /table/db%3D1/ HTTP/1.1" 200 16171
+[18/Feb/2020 18:02:08] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 18:02:08] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 18:02:08] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 18:02:08] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 18:02:09] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 18:02:09] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 18:02:09] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 18:02:09] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 18:02:09] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 18:02:09] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 18:03:19] "GET /table/db%3D1/ HTTP/1.1" 200 16204
+[18/Feb/2020 18:03:19] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 18:03:19] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 18:03:19] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 18:03:19] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 18:03:19] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 18:03:19] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 18:03:19] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 18:03:19] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 18:03:19] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 18:03:19] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 18:03:24] "GET /table/db%3D1/ HTTP/1.1" 200 16204
+[18/Feb/2020 18:03:24] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 18:03:24] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 18:03:24] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 18:03:24] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 18:03:24] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 18:03:24] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 18:03:24] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 18:03:24] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 18:03:24] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 18:03:24] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 18:03:32] "GET /table/db%3D1/ HTTP/1.1" 200 16204
+[18/Feb/2020 18:03:32] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 18:03:32] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 18:03:32] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 18:03:32] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 18:03:32] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 18:03:32] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 18:03:32] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 18:03:32] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 18:03:33] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 18:03:33] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 18:17:04] "GET /table/db%3D1/ HTTP/1.1" 200 16204
+[18/Feb/2020 18:17:04] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 18:17:04] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 18:17:04] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 18:17:04] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 18:17:04] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 18:17:04] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 18:17:04] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 18:17:04] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 18:17:04] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 18:17:04] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 18:17:08] "GET /admin/modelApp/table/1/change/ HTTP/1.1" 200 21615
+[18/Feb/2020 18:17:08] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+Not Found: /searchtableresult/
+[18/Feb/2020 18:17:12] "GET /searchtableresult/?keyword= HTTP/1.1" 404 2483
+[18/Feb/2020 18:17:15] "GET /model/?db_type=&eff_flag= HTTP/1.1" 200 17757
+[18/Feb/2020 18:17:15] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 18:17:15] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 18:17:15] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 18:17:15] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 18:17:15] "GET /static/js/buttons.js HTTP/1.1" 404 1652
+[18/Feb/2020 18:17:15] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661
+[18/Feb/2020 18:17:15] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[18/Feb/2020 18:17:15] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 18:17:15] "GET /static/js/simple-calendar.js HTTP/1.1" 404 1676
+[18/Feb/2020 18:17:15] "GET /static/js/jquery.pin.js HTTP/1.1" 404 1661

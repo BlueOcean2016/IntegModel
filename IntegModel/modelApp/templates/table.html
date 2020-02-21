@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Excellence in Digital Innovation | InnoCellence</title>
+<link href="blog.innocellence.com/rss/" rel="alternate" type="application/rss+xml" title="InnoCellence Feed" />
+<link rel="stylesheet" type="text/css" href="/static/css/syntax.css">
+<link rel="stylesheet" type="text/css" href="/static/css/style.css">
+
+<script src="/static/js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="/static/js/scripts.js"></script>
+
+<link rel="shortcut icon" href="/static/img/favicon.ico">
+
+
+<link href="/static/css/buttons.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="/static/bootstrap-3.3.7/docs/dist/css/bootstrap.min.css">
+<link href="http://cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="http://cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+<script src="/static/bootstrap-3.3.7/docs/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/static/js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="/static/js/buttons.js"></script>
+<script type="text/javascript" src="/static/js/jquery.pin.js"></script>
+
+<style>
+     .ondisplay{
+       display:inline;
+       text-align:center;
+     }
+     .offdisplay{
+         display:none;
+     }
+     
+     .bluelabel{
+         color:blue;
+     }
+    td,th{
+        text-align:left;
+        white-space: nowrap;
+    }
+     
+    select{
+   background-color:white;
+   height:40px;
+   border-radius:5px;
+   box-shadow: 0 0 5px #ccc;
+   position: relative;
+   box-shadow: 0 0 5px #ccc;
+   width: 20%;
+   height: 40px;
+   margin-top:150px;
+}
+
+
+    .develop{
+        background-color:#FF4500;
+        font-weight:bold;
+    }
+    
+    .test{
+        background-color:#0000CD;
+        font-weight:bold;
+    }
+    
+    .product{
+        background-color:#00FF00;
+        font-weight:bold;
+    }
+    
+
+
+     
+</style>
+
+</head>
+
+{% include 'head.html' %}
+
+<body>
+
+{% block content %}
+<div class="container1" align="center">
+   <h1 style="display:none">{{ tables }}</h1>
+   <h2>大数据平台--表列表({{ db_name }} 共计:{{ tables_num }}张表)</h2>
+    <h2 style="display:none" id="db_name">{{ db_name }}</h2>
+    <h2 style="display:none">简洁、直观、强悍的大数据平台,能力开发更迅速、简单。</h2>
+    <p class="masthead-button-links">
+      <a style="" class="btn btn-lg btn-primary btn-shadow" href="/model/?db_type=&eff_flag=" role="button">返回数据库列表</a>
+      <a class="btn btn-lg btn-primary btn-shadow" href="/admin/modelApp/table/add/" role="button">新增表名</a>
+
+      <a class="btn btn-lg btn-primary btn-shadow" href="javascript:history.back(-1)">返回</a>
+      
+    </p>
+    <div>
+     <label for="name" style="">表状态选择: </label>
+
+      <select id="table_state_flag" style="">
+        <option value='-1' selected>所有</option>
+        <option value="1">开发中</option>
+        <option value="2">测试中</option>
+        <option value="3" >已上线</option>
+        <option value="4">已下线</option>
+        <option value="5">其他</option>
+      </select>
+    </div>
+    <h2 class="label label-default label-primary">{{ db_type }}</h2>
+    
+    <div style="display:none">
+    <label for="name" style="display:none" class="btn btn-primary">数据库选择: </label>
+      <select id="db_type_flag" style="" class="button">
+      <option value="" selected>数据库类型</option>
+         {% for databaseType in databaseTypes %}
+           <option value="{{ databaseType.id }}">{{ databaseType.db_type_name }}</option>
+         {% endfor %}
+    </select>
+    
+    <label for="name" style="display:none" class="btn btn-primary">表状态选择: </label>
+      <select id="db_eff_flag" style="" class="button">
+       <option value="">是否生效</option>
+       <option value="1" selected>生效</option>
+       <option value="0">失效</option>
+    </select>
+    
+    <label for="name" style="display:none" class="btn btn-primary">业务线: </label>
+      <select id="" style="" class="button">
+         <option value="-1" selected>业务线选择</option>
+         {% for businessline in businesslines %}
+          
+          <option value="{{ businessline.id }}" >{{ businessline.business_line_cn_name }}</option>
+           
+         {% endfor %}
+      </select>
+    
+    <label for="name" style="display:none" class="btn btn-primary">主题域: </label>
+      <select id="" style="" class="button">
+         <option value="-1" selected >主题域选择</option>
+         {% for theme in themes %}
+          <option value="{{ theme.id }}" >{{ theme.table_theme_cn_name }}</option>
+           
+         {% endfor %}
+      </select>
+      
+   <button id="search_db" class="button button-glow button-rounded button-raised button-primary" data-loading-text="查询" 
+    type="button"> 查询
+    </button>
+    
+    </div>
+    
+    
+    
+    <table id="fieldstable" class="table table-bordered table-striped" style="width:95%;" align="center">
+  <thead>
+    <tr>
+      <th width="40px">序号</th>
+      <th width="25%">表名称</th>
+      <th width="25%">表中文解释</th>
+      <th width="200px">标签</th>
+      <th width="80px">依赖关系</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for table in tables %}
+    <tr>
+      <td><a href="/admin/modelApp/table/{{ table.id }}/change/" target="_blank">{{ forloop.counter }}</a></td>
+      
+      <td><a href="/fields/tb_id={{ table.id }}"><span class='offdisplay'>{{ db_name }}.</span><b>{{ table.tb_name }}</b></a></td>
+      
+      <td class="offdisplay">{{ table.tb_cn_name }}<b class="offdisplay">|{{ table.table_type_cn_name }}</b><b class="offdisplay">|{{ table.manage_external_flag }}</b>|<a href="/admin/modelApp/table/{{ table.id }}/change/" target="_blank" >编辑</a><b style="display:none">|{{ table.db_name_id }}|{{ table.tb_name }}|{{ table.id }}</b></td>
+      
+      <td><b><a href="/fields/tb_id={{ table.id }}">{{ table.tb_cn_name }}</a></b>&nbsp;&nbsp;&nbsp;&nbsp;<span class="button label label-warning"><a style="color:black;" href="/admin/modelApp/table/{{ table.id }}/change/" target="_blank" >编辑</a></span></td>
+      
+      <td class="">
+          <span>{{table.state_flag}}</span>
+            <span class="label label-primary offdisplay">
+           {% if table.partition_flag == '1' %}
+               分区
+            {% elif  table.partition_flag == '0' %}
+               非分区
+            {% else %}
+               
+           {% endif %}
+           <span>|</span>
+           {% if table.sd_flag == '1' %}
+               全量
+            {% elif  table.sd_flag == '0' %}
+               增量
+            {% else %}
+                 
+           {% endif %}
+            <span>|</span>
+            {% if table.manage_external_flag == '1' %}
+               外部
+            {% elif  table.manage_external_flag == '0' %}
+               管理
+            {% else %}
+                 
+           {% endif %}
+           <span>|</span>
+           {{ table.state_flag }}
+           <span>|</span>
+           {{ table.table_level }}
+           <span>|</span>
+           {{ table.table_theme }}
+           
+       
+         </span>
+      </td>
+      
+      <td>
+      <span class="label label-warning button-tiny"><a style="color:white" href="/tabledependency/tb_id={{ table.id }}" target="_blank" >依赖关系</a></span>
+      <span class="label label-info button-tiny" style="display:none"><a style="color:white" href="/">后置表>></a></span>
+      </td>
+      
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+</div>
+{% endblock %}
+</body>
+{% include 'foot.html' %}
+</html>
+
+
+<script type="text/javascript" src='/static/Highcharts-6.0.2/code/highcharts.js'></script>
+<script type="text/javascript" src='/static/Highcharts-6.0.2/code/highcharts.src.js'></script>
+<script type="text/javascript" src='/static/Highcharts-6.0.2/code/highcharts-3d.js'></script>
+<script type="text/javascript" src='/static/Highcharts-6.0.2/code/highcharts-more.js'></script>
+<script type="text/javascript" src='/static/Highcharts-6.0.2/code/highcharts-3d.src.js'></script>
+<script type="text/javascript" src='/static/Highcharts-6.0.2/code/modules/exporting.js'></script>
+<script type="text/javascript" src='/static/Highcharts-6.0.2/code/highcharts-more.src.js'></script>
+<script type="text/javascript" src="/static/js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="/static/js/wordcloud.js"></script>
+<script type="text/javascript" src="/static/js/simple-calendar.js"></script>
+<script type="text/javascript" src="/static/js/jquery.pin.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+function reflash_table(){
+    table_state_flag = $('#table_state_flag option:selected').val();//选中的值
+    //alert(table_state_flag);
+
+    $("#fieldstable tbody").find("tr").each(function(){
+        var cur_table_state_flag = $(this).children('td').eq(7).text();
+
+        if(table_state_flag == cur_table_state_flag && table_state_flag != "-1"){
+
+           $(this).show();
+
+        }else if(table_state_flag != cur_table_state_flag && table_state_flag != "-1"){
+           //其他隐藏
+           //alert("选中隐藏");
+           $(this).hide();
+
+           //$(this).parent().parent().removeClass("");
+           //$(this).parent().parent().addClass("");
+        }else if (table_state_flag == "-1"){
+            $(this).show();
+            if(cur_table_state_flag == "1"){
+               $(this).children('td').eq(7).children('button').addClass("develop");
+               $(this).children('td').eq(7).children('button').removeClass("test");
+               $(this).children('td').eq(7).children('button').removeClass("product");
+
+            }else if(cur_table_state_flag == "2"){
+                $(this).children('td').eq(7).children('button').addClass("test");
+                $(this).children('td').eq(7).children('button').removeClass("develop");
+                $(this).children('td').eq(7).children('button').removeClass("product");
+
+            }else if(cur_table_state_flag == "3"){
+                $(this).children('td').eq(7).children('button').addClass("product");
+                $(this).children('td').eq(7).children('button').removeClass("test");
+                $(this).children('td').eq(7).children('button').removeClass("develop");
+
+            }
+        }
+    });
+
+
+}
+
+//选择数据库
+$("#table_state_flag").change(function(){
+    //alert("ok");
+    reflash_table();
+});
+
+
+
+});
+</script>
+
+</html>
