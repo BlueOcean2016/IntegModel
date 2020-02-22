@@ -18,10 +18,10 @@ from django.shortcuts import render_to_response
 from django.http import HttpResponseRedirect
 from django.shortcuts import redirect
 
-
 import datetime,sys,math,importlib
 import os, sys, json, time,random,xlwt,io
 reload(sys)
+
 sys.setdefaultencoding( "utf-8" )
 
 # Create your views here
@@ -270,7 +270,7 @@ def searchtableresult(request):
         eff_flag = '1'
         pass
 
-    if keyword <> '':
+    if keyword != '':
         tables = Table.objects.filter(
             Q(tb_cn_name__icontains=keyword) | Q(tb_name__icontains=keyword) | Q(tb_job__icontains=keyword))
     else:
@@ -373,7 +373,7 @@ def searchfieldresult(request):
     context['tablelevels'] = tablelevels
     context['themes'] = themes
 
-    if keyword <> '':
+    if keyword != '':
         fields = Fields.objects.filter(Q(fields_name__icontains=keyword) | Q(fields_cn_name__icontains=keyword) | Q(
             fields_detail__icontains=keyword))
     # tables = Table.objects.filter(Q(tb_cn_name__icontains=keyword)|Q(tb_name__icontains=keyword)|Q(tb_job__icontains=keyword))
@@ -1027,7 +1027,7 @@ def execRelation(request):
     keywords = str(request.GET['keywords'])
     context = {}
 
-    if keywords <> '':
+    if keywords != '':
         table = Table.objects.get(id=keywords)
         # tableDependency1 = TableDependency.objects.filter(before_table_id=table.id)
         # tableDependency2 = TableDependency.objects.filter(after_table_id=table.id)

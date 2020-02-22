@@ -1,0 +1,32 @@
+[22/Feb/2020 16:57:59] "GET / HTTP/1.1" 200 12909
+/Users/idea/Desktop/Ant/workspace/IntegModel/IntegModel/modelApp/views.py:315: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'modelApp.models.Table'> QuerySet.
+  paginator = Paginator(tables, 10)
+[22/Feb/2020 16:58:03] "GET /searchtableresult/?keyword= HTTP/1.1" 200 24218
+[22/Feb/2020 16:58:03] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[22/Feb/2020 16:58:03] "GET /static/js/jquery.pin.js HTTP/1.1" 304 0
+[22/Feb/2020 16:58:03] "GET /static/js/buttons.js HTTP/1.1" 304 0
+[22/Feb/2020 16:58:03] "GET /static/js/simple-calendar.js HTTP/1.1" 304 0
+[22/Feb/2020 16:58:03] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[22/Feb/2020 16:58:05] "GET /searchjobdependency/ HTTP/1.1" 200 19656
+[22/Feb/2020 16:58:05] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[22/Feb/2020 16:58:05] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[22/Feb/2020 16:58:05] "GET /execRelation/?keywords= HTTP/1.1" 200 42
+[22/Feb/2020 16:58:06] "GET / HTTP/1.1" 200 12909
+[22/Feb/2020 16:58:07] "GET /searchtableresult/?keyword= HTTP/1.1" 200 24218
+[22/Feb/2020 16:58:07] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[22/Feb/2020 16:58:07] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[22/Feb/2020 16:58:08] "GET / HTTP/1.1" 200 12909
+[22/Feb/2020 16:59:48] "GET /searchtableresult/?keyword= HTTP/1.1" 200 24218
+[22/Feb/2020 16:59:48] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[22/Feb/2020 16:59:48] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[22/Feb/2020 16:59:50] "GET /searchtableresult/?keyword= HTTP/1.1" 200 24218
+[22/Feb/2020 16:59:50] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[22/Feb/2020 16:59:50] "GET /static/integcss/common.css HTTP/1.1" 404 1670
+[22/Feb/2020 16:59:52] "GET /home/ HTTP/1.1" 200 12909
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 22, 2020 - 16:57:45
+Django version 1.11.23, using settings 'IntegModel.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.

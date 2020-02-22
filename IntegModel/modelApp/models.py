@@ -15,8 +15,10 @@ import datetime
 
 
 def get_sentinel_user():
-    return get_user_model().objects.get_or_create(username='deleted')[0]
-
+    try:
+        return get_user_model().objects.get_or_create(username='deleted')[0]
+    except:
+        return settings.AUTH_USER_MODEL
 
 # 1.数据库类型
 class DatabaseType(models.Model):
