@@ -452,6 +452,7 @@ def createTableSql(request):
     # 非分区字段
     vfields = Fields.objects.filter(tb_name_id=tb_id, partition_flag='0').order_by('fields_rank')
 
+    selectline = ''
     filedsline = ''
     i = 0
     for field in vfields:
@@ -459,11 +460,15 @@ def createTableSql(request):
         if i == 0 :
             line = "`%s`    %s      comment     '%s' \n" % (
                 str(field.fields_name), str(field.fields_type.fields_type), str(field.fields_cn_name))
+            vselectline = "select %s  as %s --%s \n" % (str(field.fields_name),str(field.fields_name),str(field.fields_cn_name))
         else :
             line = ",`%s`    %s      comment     '%s' \n" % (
         str(field.fields_name), str(field.fields_type.fields_type), str(field.fields_cn_name))
+            vselectline = ",%s  as %s --%s \n" % (
+            str(field.fields_name), str(field.fields_name), str(field.fields_cn_name))
 
         filedsline = filedsline + line
+        selectline = selectline + vselectline
         i = i + 1
 
     # 分区字段
@@ -491,10 +496,8 @@ def createTableSql(request):
         alterline = '''
 
         -- insert overwrite table %s.%s  partition(ds='{{yesterday}}')
-
-
-       alter table %s.%s drop if exists partition(%s); \n
-       alter table  %s.%s add if not exists partition(%s) \n location '%s%s';
+        alter table %s.%s drop if exists partition(%s); \n
+        alter table  %s.%s add if not exists partition(%s) \n location '%s%s';
 
     ''' % (db_name, tb_name, db_name, tb_name, alterpartitionfiledsline[:-1], db_name, tb_name,
            alterpartitionfiledsline[:-1], hdfsfile, line2)
@@ -515,12 +518,14 @@ def createTableSql(request):
     locationline = "\nlocation '%s';" % (hdfsfile)
     createline = '''--建表语句-- \n create %s table if not exists %s.%s ( \n ''' % (str(manage_external),db_name, tb_name)
 
+    selectline = selectline + 'from %s.%s  \n where ' % (str(db_name),str(tb_name))
     line0 = "drop table if exists %s.%s ;" % (db_name, tb_name) + "\n"
 
     insersql = "\n" + "--  insert overwrite table %s.%s  partition(ds='{{yesterday}}') " % (db_name, tb_name)
     context['dropsql'] = line0
     context['result'] = createline + filedsline[
-                                     :-2] + "\n" + commentline + partitionfiledsline + formatline + locationline + "\n" + insersql
+                                     :-2] + "\n" + commentline + partitionfiledsline + formatline \
+                        + locationline + "\n" + insersql + "\n" + selectline
 
     context['altersql'] = alterline
     context['db_name'] = db_name
