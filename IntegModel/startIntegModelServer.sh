@@ -40,4 +40,4 @@ else
     echo "`dt`:Start Succeed"
 fi
 
-
+pip freeze > ./requirements.txt
